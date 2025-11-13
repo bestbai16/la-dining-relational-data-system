@@ -1,22 +1,21 @@
 import csv
 
 class csvParser:
-    def __init__(self, filename, encoding="utf-8-sig"):
+    def __init__(self, filename):
         self.filename = filename
-        self.encoding = encoding
         self.data = []
         self.headers = []
         self._parse()
 
     def _parse(self):
-        # errors="replace" so weird characters won't crash the parser
-        with open(self.filename, newline="", encoding=self.encoding, errors="replace") as f:
+        with open(self.filename, newline='', encoding="utf-8-sig") as f: # need this encoding, otherwise will also have BOM Byte Order Mark in dict keys
             reader = csv.reader(f)
             self.headers = next(reader)  # first row as header
             for row in reader:
                 self.data.append(dict(zip(self.headers, row)))
 
     def head(self, n=5):
+        # default of 5 but can input any n
         return self.data[:n]
 
     def drop_dup(self):
@@ -49,12 +48,4 @@ class csvParser:
             writer.writeheader()
             writer.writerows(self.data)
 
-#from google.colab import drive
-#drive.mount('/content/drive')
-
-"""# Test code"""
-
-parser = csvParser("Ratings_Type_Link.csv")
-
-print(parser.head(3))
 
