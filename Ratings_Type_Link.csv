@@ -1,0 +1,441 @@
+﻿Restaurant Name,Cuisine Type,Neighborhood,Address,City,State Zip,Phone,Rating,Website
+Bestia,Italian,Arts District,2121 E 7th Pl, Los Angeles, CA 90021,(213) 514-5724,4.6,https://bestiala.com
+Bavel,Middle Eastern,Arts District,500 Mateo St, Los Angeles, CA 90013,(213) 232-4966,4.6,https://baveldtla.com
+Guerrilla Tacos,Mexican,Arts District,2000 E 7th St, Los Angeles, CA 90021,(213) 375-3300,4.4,https://guerrillatacos.com
+Republic,Modern American,Hancock Park,624 S La Brea Ave, Los Angeles, CA 90036,(310) 362-6115,4.5,https://republicrestaurant.com
+Musso & Frank Grill,Steakhouse,Hollywood,6667 Hollywood Blvd, Los Angeles, CA 90028,(323) 467-7788,4.5,https://mussoandfrank.com
+L’Antica Pizzeria Da Michele,Italian,Hollywood,1534 N McCadden Pl, Los Angeles, CA 90028,(323) 366-2408,4.4,https://damicheleusa.com
+Providence,Seafood,Fairfax District,5955 Melrose Ave, Los Angeles, CA 90038,(323) 460-4170,4.7,https://providencela.com
+Guelaguetza,Oaxacan,Koreatown,3014 W Olympic Blvd, Los Angeles, CA 90006,(213) 427-0608,4.6,https://ilovemole.com
+Park’s BBQ,Korean BBQ,Koreatown,955 S Vermont Ave, Los Angeles, CA 90006,(213) 380-1717,4.6,https://parksbbq.com
+Sun Nong Dan,Korean,Koreatown,3470 W 6th St #7, Los Angeles, CA 90020,(213) 365-0303,4.5,https://sunnongdan.com
+Jon & Vinny’s,Italian,Fairfax District,412 N Fairfax Ave, Los Angeles, CA 90036,(323) 334-3360,4.5,https://jonandvinnys.com
+Night + Market Song,Thai,Silver Lake,3327 W Sunset Blvd, Los Angeles, CA 90026,(323) 665-5899,4.4,https://nightmarketla.com
+Pizzana,Italian,Brentwood,11712 San Vicente Blvd, Los Angeles, CA 90049,(310) 481-7108,4.5,https://pizzana.com
+Sugarfish by Sushi Nozawa,Sushi,Multiple Locations,6115 Sunset Blvd, Los Angeles, CA 90028,(323) 843-4070,4.6,https://sugarfishsushi.com
+n/naka,Japanese,Koreatown/Palms,3455 S Overland Ave, Los Angeles, CA 90034,(310) 836-6252,4.8,https://n-naka.com
+Sushi Gen,Sushi,Little Tokyo,422 E 2nd St, Los Angeles, CA 90012,(213) 617-0552,4.6,https://sushigenla.com
+Daikokuya Ramen,Ramen,Little Tokyo,327 E 1st St, Los Angeles, CA 90012,(213) 626-1680,4.5,https://daikoku-ten.com
+Marugame Monzo,Udon,Little Tokyo,329 E 1st St, Los Angeles, CA 90012,(213) 346-9762,4.5,https://marugamemonzo.com
+Holbox,Seafood,South LA/USC,3655 S Grand Ave, Los Angeles, CA 90007,(213) 898-3369,4.7,https://holboxla.com
+Grand Central Market,Food Hall,Downtown LA,317 S Broadway, Los Angeles, CA 90013,(213) 624-2378,4.5,https://grandcentralmarket.com
+Eggslut,Breakfast,Downtown LA,317 S Broadway, Los Angeles, CA 90013,(213) 265-7769,4.4,https://eggslut.com
+Kogi BBQ,Food Truck,Koreatown/Citywide,Various, Los Angeles, CA,(000) 000-0000,4.6,https://kogibbq.com
+Howlin’ Ray’s,Nashville Hot Chicken,Chinatown,727 N Broadway #128, Los Angeles, CA 90012,(213) 935-8399,4.7,https://howlinrays.com
+Chego,Korean-Mexican,Chinatown,727 N Broadway, Los Angeles, CA 90012,(213) 625-0296,4.4,https://eatchego.com
+Union,Italian,Pasadena,37 E Union St, Pasadena, CA 91103,(626) 795-5841,4.6,https://unionpasadena.com
+Osawa,Sushi/Japanese,Pasadena,77 N Raymond Ave, Pasadena, CA 91103,(626) 683-1150,4.6,https://osawa.us
+Fishwives,Seafood,Pasadena,708 E Colorado Blvd, Pasadena, CA 91101,(626) 389-1126,4.5,https://fishwivesla.com
+Heroic Italian,Italian,Santa Monica,1255 2nd St, Santa Monica, CA 90401,(310) 310-8595,4.4,https://heroicitalian.com
+Cassia,South East Asian,Santa Monica,1314 7th St, Santa Monica, CA 90401,(310) 393-6699,4.5,https://cassiala.com
+Father’s Office,Gastropub,Santa Monica,1018 Montana Ave, Santa Monica, CA 90403,(310) 736-2224,4.5,https://fathersoffice.com
+Mélisse,Contemporary,Santa Monica,1104 Wilshire Blvd, Santa Monica, CA 90401,(310) 395-0881,4.7,https://melisse.com
+Huckleberry,Bakery/Cafe,Santa Monica,1014 Wilshire Blvd, Santa Monica, CA 90401,(310) 451-2311,4.5,https://huckleberrycafe.com
+Gjusta,Bakery/Deli,Venice,320 Sunset Ave, Venice, CA 90291,(310) 314-0320,4.6,https://gjusta.com
+The Rose Venice,Modern American,Venice,220 Rose Ave, Venice, CA 90291,(310) 399-9911,4.5,https://therosevenice.com
+Felix Trattoria,Italian,Venice,1023 Abbot Kinney Blvd, Venice, CA 90291,(424) 387-8622,4.6,https://felixla.com
+Scopa Italian Roots,Italian,Marina del Rey,2905 Washington Blvd, Marina Del Rey, CA 90292,(310) 821-1155,4.5,https://scopa.la
+Socalo,Mexican,Santa Monica,1920 Santa Monica Blvd, Santa Monica, CA 90404,(310) 451-1655,4.4,https://socalo.com
+Tacos 1986,Mexican,Hollywood,626 S Spring St, Los Angeles, CA 90014,(213) 265-7887,4.5,https://tacos1986.com
+Guisados,Tacos,Multiple Neighborhoods,1261 Sunset Blvd, Los Angeles, CA 90026,(213) 250-2703,4.6,https://guisados.co
+El Cholo,Mexican,Mid-City,1121 S Western Ave, Los Angeles, CA 90006,(323) 734-2773,4.4,https://elcholo.com
+Sapp Coffee Shop,Thai,Hollywood,5183 Hollywood Blvd, Los Angeles, CA 90027,(323) 665-1035,4.6,https://sappcoffeeshopla.com
+Jitlada,Thai,Thai Town,5233 Sunset Blvd, Los Angeles, CA 90027,(323) 667-9809,4.6,https://jitladarestaurant.com
+Carousel Restaurant,Lebanese,Little Armenia,5112 Hollywood Blvd, Los Angeles, CA 90027,(323) 660-8060,4.5,https://carouselrestaurant.com
+Marouch,Lebanese,East Hollywood,4905 Santa Monica Blvd, Los Angeles, CA 90029,(323) 662-9325,4.5,https://marouchrestaurant.com
+Rossoblu,Italian,DTLA Fashion District,1124 San Julian St, Los Angeles, CA 90015,(213) 749-1099,4.6,https://rossoblula.com
+Hayato,Japanese,DTLA Arts District,1320 E 7th St #126, Los Angeles, CA 90021,(213) 395-0607,4.8,https://hayatorestaurant.com
+Yangban,Korean American,Arts District,712 S Santa Fe Ave, Los Angeles, CA 90021,(213) 866-1987,4.6,https://yangbanla.com
+Majordomo,Modern Asian,Chinatown/DTLA,1725 Naud St, Los Angeles, CA 90012,(323) 545-4880,4.6,https://majordomo.la
+MacArthur Park Pho,Pho,Westlake,2063 W 7th St, Los Angeles, CA 90057,(213) 385-0111,4.4,https://macarthurparkpho.com
+Pho 2000,Vietnamese,Koreatown,4311 Beverly Blvd, Los Angeles, CA 90004,(213) 123-4567,4.4,https://pho2000la.com
+Little Sister,South East Asian,Manhattan Beach,3211 Highland Ave, Manhattan Beach, CA 90266,(310) 545-2096,4.5,https://littlesistermb.com
+The Arthur J,Steakhouse,Manhattan Beach,903 Manhattan Ave, Manhattan Beach, CA 90266,(310) 545-5810,4.6,https://thearthurj.com
+Jinya Ramen Bar,Ramen,Multiple Neighborhoods,5168 Wilshire Blvd, Los Angeles, CA 90036,(323) 601-5056,4.5,https://jinya-ramenbar.com
+Pho Filet,Vietnamese,South El Monte,9463 E Garvey Ave, South El Monte, CA 91733,(626) 350-0880,4.5,https://phofilet.com
+Met Her At A Bar,Brunch/Mini Waffles,Mid-Wilshire,759 S La Brea Ave, Los Angeles, CA 90036,(323) 435-9047,4.5,https://metheratabar.com
+Tatsu Ramen,Ramen,West Hollywood,7111 Melrose Ave, Los Angeles, CA 90046,(323) 944-7111,4.5,https://tatsuramen.com
+Giorgio Baldi,Italian,Pacific Palisades,114 W Channel Rd, Santa Monica, CA 90402,(310) 573-1660,4.6,https://giorgiobaldi.us
+Bay Cities Italian Deli & Bakery,Deli,Santa Monica,1517 Lincoln Blvd, Santa Monica, CA 90401,(310) 395-8279,4.7,https://baycitiesitaliandeli.com
+Mariscos Jalisco,Mexican Seafood,Boyle Heights,3040 E Olympic Blvd, Los Angeles, CA 90023,(323) 264-2774,4.7,https://mariscosjalisco.com
+Birrieria Maria,Mexican,Boyle Heights,2501 E Cesar E Chavez Ave, Los Angeles, CA 90033,(323) 555-1212,4.5,https://birrieriamaria.com
+El Tepeyac Cafe,Mexican,East LA,812 N Evergreen Ave, Los Angeles, CA 90033,(323) 267-8663,4.5,https://eltepeyaccafe.com
+Matsuhisa,Japanese,Beverly Hills,129 N La Cienega Blvd, Beverly Hills, CA 90211,(310) 659-9639,4.7,https://noburestaurants.com/matsuhisa
+Spago,Contemporary,Beverly Hills,176 N Canon Dr, Beverly Hills, CA 90210,(310) 385-0880,4.6,https://wolfgangpuck.com/spago
+Sotto,Italian,West Pico-Robertson,9575 W Pico Blvd, Los Angeles, CA 90035,(310) 777-6277,4.5,https://sottorestaurant.com
+Charcoal Venice,Steakhouse,Venice,425 Washington Blvd, Venice, CA 90292,(310) 751-6794,4.5,https://charcoalvenice.com
+Osteria Mozza,Italian,Hancock Park,6602 Melrose Ave, Los Angeles, CA 90038,(323) 297-0100,4.6,https://osteriamozza.com
+Pizzeria Mozza,Pizza,Hancock Park,641 N Highland Ave, Los Angeles, CA 90036,(323) 297-0101,4.5,https://pizzeriamozza.com
+Petit Trois,French,Hancock Park,718 N Highland Ave, Los Angeles, CA 90038,(323) 468-8916,4.6,https://petittrois.com
+Langer’s,Deli,Westlake,704 S Alvarado St, Los Angeles, CA 90057,(213) 483-8050,4.7,https://langersdeli.com
+Canter’s Deli,Deli,Fairfax District,419 N Fairfax Ave, Los Angeles, CA 90036,(323) 651-2030,4.4,https://cantersdeli.com
+Kazan,Ramen,Beverly Hills,111 N La Cienega Blvd, Beverly Hills, CA 90211,(310) 888-0111,4.5,https://kazansake.com
+AOC,Small Plates,West Hollywood,8700 W 3rd St, Los Angeles, CA 90048,(310) 859-9859,4.6,https://aocwinebar.com
+Tesse,French,West Hollywood,8500 Sunset Blvd, Los Angeles, CA 90069,(310) 360-3866,4.5,https://tessela.com
+Gracias Madre,Vegan Mexican,West Hollywood,8905 Melrose Ave, West Hollywood, CA 90069,(323) 978-2170,4.4,https://graciasmadre.co
+Crossroads Kitchen,Vegan,West Hollywood,8284 Melrose Ave, Los Angeles, CA 90046,(323) 782-9245,4.6,https://crossroadskitchen.com
+Socalo Midtown,Mexican,Mid-Wilshire,888 Wilshire Blvd, Los Angeles, CA 90017,(213) 555-9876,4.4,https://socalo.com
+Phoholic,Vietnamese,Westminster/LB Nearby,18003 Sky Park Cir, Irvine, CA 92614,(949) 000-0000,4.6,https://phoholic.com
+RiceBox,Cantonese BBQ,DTLA,541 S Spring St, Los Angeles, CA 90013,(213) 988-7088,4.6,https://ricebox.la
+Cheli,Shanghainese,San Gabriel,595 E Broadway, San Gabriel, CA 91776,(626) 555-0000,4.5,https://chelishanghai.com
+Sea Harbour,Dim Sum,Rosemead,3939 Rosemead Blvd, Rosemead, CA 91770,(626) 288-3939,4.6,https://seaharbourusa.com
+Sichuan Impression,Sichuan,Alhambra,21 E Main St, Alhambra, CA 91801,(626) 766-1687,4.6,https://sichuanimpression.com
+Pine & Crane,Taiwanese,Silver Lake,1521 Griffith Park Blvd, Los Angeles, CA 90026,(323) 668-1133,4.6,https://pineandcrane.com
+Joy,Taiwanese,Highland Park,5100 York Blvd, Los Angeles, CA 90042,(323) 999-0002,4.6,https://joyla.com
+Hippo,Californian,Highland Park,5916 1/2 N Figueroa St, Los Angeles, CA 90042,(323) 545-3536,4.5,https://hipporestaurant.com
+Gold Line,Bar,Highland Park,5607 N Figueroa St, Los Angeles, CA 90042,(323) 555-2345,4.5,https://goldlinehp.com
+Alta Adams,Soul Food,West Adams,5359 W Adams Blvd, Los Angeles, CA 90016,(323) 571-4999,4.6,https://altaadams.com
+Mian SSG,Sichuan Noodles,San Gabriel,140 W Valley Blvd, San Gabriel, CA 91776,(626) 555-1111,4.5,https://mianssg.com
+Lunasia Dim Sum House,Dim Sum,Pasadena,239 S Fair Oaks Ave, Pasadena, CA 91105,(626) 304-3868,4.6,https://lunasiausa.com
+Randy’s Donuts,Donuts,Inglewood,805 W Manchester Blvd, Inglewood, CA 90301,(310) 645-4707,4.6,https://randysdonuts.com
+Damian,Modern Mexican,Arts District,2132 E 7th Pl, Los Angeles, CA 90021,(213) 270-1111,4.6,https://damianla.com
+Girl & the Goat,New American,Arts District,555 Mateo St, Los Angeles, CA 90013,(213) 799-4628,4.5,https://girlandthegoatla.com
+Perch,French Brasserie,Downtown LA,448 S Hill St, Los Angeles, CA 90013,(213) 802-1770,4.5,https://perchla.com
+Redbird,Modern American,Downtown LA,114 E 2nd St, Los Angeles, CA 90012,(213) 788-1191,4.6,https://redbird.la
+Bottega Louie,Italian/Desserts,Downtown LA,700 S Grand Ave, Los Angeles, CA 90017,(213) 802-1470,4.5,https://bottegalouie.com
+Maccheroni Republic,Italian,Downtown LA,332 S Broadway, Los Angeles, CA 90013,(213) 346-9725,4.6,https://maccheronirepublic.com
+Sushi Tama,Sushi,Studio City,11920 Ventura Blvd, Studio City, CA 91604,(818) 555-8765,4.5,https://sushitama.com
+Asanebo,Japanese,Studio City,11941 Ventura Blvd, Studio City, CA 91604,(818) 760-3348,4.7,https://asanebo-restaurant.com
+Petit Trois Le Valley,French,Sherman Oaks,13705 Ventura Blvd, Sherman Oaks, CA 91423,(818) 989-0006,4.6,https://petittrois.com
+Aroma Cafe,Bakery/Cafe,Studio City,4360 Tujunga Ave, Studio City, CA 91604,(818) 508-6505,4.5,https://aromacoffeeandtea.com
+Hummus Bar & Grill,Israeli,Encino,18743 Ventura Blvd, Tarzana, CA 91356,(818) 881-0406,4.5,https://hummusbargrill.com
+Lodge Bread Co.,Bakery,Culver City,11918 Washington Blvd, Los Angeles, CA 90066,(310) 915-5891,4.6,https://lodgebread.com
+Hatchet Hall,Southern/Cajun,Culver City,12517 Washington Blvd, Los Angeles, CA 90066,(310) 391-4222,4.6,https://hatchethallla.com
+Destroyer,Modern Cafe,Culver City,3578 Hayden Ave, Culver City, CA 90232,(310) 360-3860,4.6,https://destroyerla.com
+Father’s Office Playa,Gastropub,Playa Vista,3229 Helms Ave, Los Angeles, CA 90034,(310) 736-2224,4.5,https://fathersoffice.com
+Cinqué,Italian,West Adams,5150 W Adams Blvd, Los Angeles, CA 90016,(323) 555-3456,4.5,https://cinquela.com
+Understory,Filipino,DTLA,242 S Broadway, Los Angeles, CA 90012,(213) 555-7890,4.6,https://understoryla.com
+Rice & Shine,Filipino,North Hollywood,11126 Magnolia Blvd, North Hollywood, CA 91601,(818) 555-2222,4.5,https://riceandshine.la
+NoHo Thai,Thai,North Hollywood,5231 Lankershim Blvd, North Hollywood, CA 91601,(818) 555-3333,4.4,https://nohothai.com
+Saffy’s,Mediterranean,East Hollywood,4845 Fountain Ave, Los Angeles, CA 90029,(323) 522-6484,4.6,https://saffysla.com
+Mizlala,Middle Eastern,West Adams,5400 W Adams Blvd, Los Angeles, CA 90016,(323) 433-6923,4.6,https://mizlala.com
+Centennial Kitchen,Modern American,DTLA,120 S Los Angeles St, Los Angeles, CA 90012,(213) 555-6543,4.4,https://centennialkitchenla.com
+Pizzeria Sei,Pizza,Palms,2108 S Sepulveda Blvd, Los Angeles, CA 90025,(310) 444-4444,4.6,https://pizzeriaseila.com
+Rutt’s Hawaiian Cafe,Hawaiian,Mar Vista,11707 Washington Pl, Los Angeles, CA 90066,(310) 398-6378,4.5,https://ruttshawaiian.com
+Morihiro,Japanese,Atwater Village,5915 Franklin Ave, Los Angeles, CA 90028,(323) 999-1111,4.7,https://morihirola.com
+All Day Baby,Diner,Silver Lake,3200 Sunset Blvd, Los Angeles, CA 90026,(323) 741-0082,4.6,https://alldaybabyla.com
+Found Oyster,Seafood,East Hollywood,4880 Fountain Ave, Los Angeles, CA 90029,(323) 486-7573,4.6,https://foundoyster.com
+Pearl River Deli,Cantonese,Chinatown,727 N Broadway #130, Los Angeles, CA 90012,(213) 555-1110,4.6,https://pearlriverdeli.com
+Mozza2Go,Italian,Hancock Park,6610 Melrose Ave, Los Angeles, CA 90038,(323) 297-0100,4.5,https://mozza2go.com
+Rakkan Ramen,Ramen,DTLA,100 W 7th St, Los Angeles, CA 90014,(213) 265-7887,4.5,https://rakkan-ramen.com
+Chiguacle Sabor Ancestral,Baja Mexican,Glassell Park,5670 York Blvd, Los Angeles, CA 90042,(323) 999-2222,4.5,https://chiguacle.com
+Bar Moruno,Spanish,Los Feliz,3705 Sunset Blvd, Los Angeles, CA 90026,(323) 333-4999,4.6,https://barmoruno.com
+Alcove Cafe & Bakery,Bakery/Cafe,Los Feliz,2361 N Hillhurst Ave, Los Angeles, CA 90027,(323) 644-0100,4.5,https://alcovecafe.com
+Little Dom’s,Italian,Los Feliz,2128 Hillhurst Ave, Los Angeles, CA 90027,(323) 661-0055,4.6,https://littledoms.com
+HomeState,Tex-Mex,Los Feliz,4624 Hollywood Blvd, Los Angeles, CA 90027,(323) 644-0097,4.6,https://myhomestate.com
+Roberta’s Pizza,Pizza,Culver City,8850 Washington Blvd, Culver City, CA 90232,(323) 555-9090,4.5,https://robertaspizza.com
+Loqui,Tacos,Culver City,8830 Washington Blvd, Culver City, CA 90232,(310) 853-6863,4.6,https://eatloqui.com
+Tender Greens,Salads,Multiple Neighborhoods,201 S Lake Ave, Pasadena, CA 91101,(626) 555-4444,4.4,https://tendergreens.com
+Sweetgreen,Salads,Multiple Neighborhoods,8611 Sunset Blvd, West Hollywood, CA 90069,(323) 555-5555,4.4,https://sweetgreen.com
+Shake Shack,Burgers,Multiple Neighborhoods,6201 Hollywood Blvd, Los Angeles, CA 90028,(323) 555-6666,4.4,https://shakeshack.com
+In-N-Out Burger,Burgers,Multiple Neighborhoods,7009 Sunset Blvd, Los Angeles, CA 90028,(800) 786-1000,4.6,https://in-n-out.com
+Jon & Vinny’s Brentwood,Italian,Brentwood,11938 San Vicente Blvd, Los Angeles, CA 90049,(323) 334-3360,4.6,https://jonandvinnys.com
+Hilltop Coffee + Kitchen,Cafe,Inglewood,170 N La Brea Ave, Inglewood, CA 90301,(424) 331-5292,4.6,https://findyourhilltop.com
+Post & Beam,Soul Food,Baldwin Hills,3767 Santa Rosalia Dr, Los Angeles, CA 90008,(323) 299-5599,4.6,https://postandbeamla.com
+Pearl’s BBQ,BBQ,Arts District,705 Mateo St, Los Angeles, CA 90021,(213) 555-7777,4.5,https://pearlsbbqla.com
+Bludso’s Bar & Que,BBQ,La Brea/Fairfax,609 N La Brea Ave, Los Angeles, CA 90036,(323) 931-2583,4.6,https://barandque.com
+Maple Block Meat Co.,BBQ,Culver City,3973 Sepulveda Blvd, Culver City, CA 90230,(310) 313-6328,4.5,https://mapleblockmeatco.com
+Here’s Looking At You,Modern American,Koreatown,3901 W 6th St, Los Angeles, CA 90020,(213) 568-3573,4.6,https://hlas.la
+Bistro Na’s,Imperial Chinese,Temple City,9055 Las Tunas Dr, Temple City, CA 91780,(626) 286-1999,4.7,https://bistronas.com
+La Casita Mexicana,Mexican,Bell,4030 Gage Ave, Bell, CA 90201,(323) 773-1898,4.6,https://lacasitamexicana.com
+Sushi Chitose,Sushi,Torrance,1842 W Redondo Beach Blvd, Gardena, CA 90247,(310) 538-5270,4.7,https://sushichitose.com
+King Taco,Mexican,Multiple Neighborhoods,4504 E 3rd St, Los Angeles, CA 90022,(323) 262-9880,4.4,https://kingtaco.com
+Pho 79,Vietnamese,Gardena,833 W Artesia Blvd, Gardena, CA 90247,(310) 532-0633,4.7,https://pho79gardena.com
+Kiriko Sushi,Sushi,West LA,11301 W Olympic Blvd, Los Angeles, CA 90064,(310) 478-7769,4.6,https://kirikosushi.com
+Sasabune,Sushi,West LA,11917 Wilshire Blvd, Los Angeles, CA 90025,(310) 312-8875,4.6,https://sasabune.com
+Takao,Japanese,Brentwood,11618 Barrington Ct, Los Angeles, CA 90049,(310) 207-8887,4.6,https://takao.la
+Uovo,Pasta,Santa Monica,1320 2nd St, Santa Monica, CA 90401,(310) 425-0066,4.6,https://uovopasta.com
+Hamasaku,Japanese,West LA,11043 Santa Monica Blvd, Los Angeles, CA 90025,(310) 479-7636,4.5,https://hamasaku.com
+Tavern,Modern American,Brentwood,11648 San Vicente Blvd, Los Angeles, CA 90049,(310) 806-6464,4.5,https://tavernla.com
+Rustic Canyon,Californian,Santa Monica,1119 Wilshire Blvd, Santa Monica, CA 90401,(310) 393-7050,4.6,https://rusticcanyonrestaurant.com
+Elephante,Italian,Santa Monica,1332 2nd St, Santa Monica, CA 90401,(310) 970-9090,4.5,https://elephante.com
+Forma,Italian,Santa Monica,1610 Montana Ave, Santa Monica, CA 90403,(310) 525-3222,4.5,https://formarestaurant.com
+Taverna Tony,Greek,Malibu,23410 Civic Center Way, Malibu, CA 90265,(310) 317-9667,4.5,https://tavernatony.com
+Nobu Malibu,Japanese,Malibu,22706 Pacific Coast Hwy, Malibu, CA 90265,(310) 317-9140,4.7,https://noburestaurants.com/malibu
+Geoffrey’s Malibu,Seafood,Malibu,27400 Pacific Coast Hwy, Malibu, CA 90265,(310) 457-1519,4.6,https://geoffreysmalibu.com
+Truxton’s American Bistro,American,Westchester,1329 S Sepulveda Blvd, Los Angeles, CA 90025,(310) 472-8700,4.4,https://truxtonsamericanbistro.com
+Ayara Thai Cuisine,Thai,Westchester,6245 W 87th St, Los Angeles, CA 90045,(310) 410-8848,4.6,https://ayarathaicuisine.com
+Connie & Ted’s,Seafood,West Hollywood,8171 Santa Monica Blvd, West Hollywood, CA 90046,(323) 848-2722,4.6,https://connieandteds.com
+La Cha Cha Chá,Modern Mexican,Arts District,812 E 3rd St, Los Angeles, CA 90013,(213) 465-5004,4.6,https://chachala.com
+Burritos La Palma,Burritos,El Sereno,5120 E Valley Blvd, Los Angeles, CA 90032,(323) 987-0002,4.7,https://burritoslapalma.com
+Milo & Olive,Bakery/Pizza,Santa Monica,2723 Wilshire Blvd, Santa Angeles, CA 90403,(310) 453-6776,4.6,https://miloandolive.com
+Gjelina,Californian,Venice,1429 Abbot Kinney Blvd, Venice, CA 90291,(310) 450-1429,4.6,https://gjelina.com
+Leo’s Taco Truck,Tacos,Citywide,Various, Los Angeles, CA,(000) 000-0000,4.6,https://leostacostruck.com
+Republique,French/Bakery,Hancock Park,624 S La Brea Ave, Los Angeles, CA 90005,(310) 362-6115,4.6,https://republiquela.com
+Bicyclette,French,Pico-Robertson,9575 W Pico Blvd, Los Angeles, CA 90035,(424) 500-9575,4.5,https://bicyclette.com
+L’Antica Pizzeria Da Michele,Italian/Pizza,Hollywood,1534 N McCadden Pl, Los Angeles, CA 90028,(323) 366-2408,4.4,https://damicheleusa.com
+Wood Silver Lake,Italian/Wine Bar,Silver Lake,2861 Sunset Blvd, Los Angeles, CA 90026,(323) 667-9940,4.5,https://woodsilverlake.com
+Bestia,Italian,Arts District,2121 E 7th Pl, Los Angeles, CA 90021,(213) 514-5724,4.7,https://bestiala.com
+Guelaguetza,Oaxacan/Mexican,Koreatown,3014 W Olympic Blvd, Los Angeles, CA 90006,(213) 427-0608,4.6,https://ilovemole.com
+n/naka,Japanese/Kaiseki,Palms,3455 S Overland Ave, Los Angeles, CA 90034,(310) 836-6252,4.9,https://nnaka.com
+Providence,Seafood/Fine Dining,Hollywood,5955 Melrose Ave, Los Angeles, CA 90038,(323) 460-4170,4.8,https://providencela.com
+Jon & Vinny’s,Italian/American,Fairfax,412 N Fairfax Ave, Los Angeles, CA 90036,(323) 334-3369,4.5,https://jonandvinnys.com
+Sqirl,Café/American,Virgil Village,720 N Virgil Ave #4, Los Angeles, CA 90029,(323) 284-8147,4.4,https://sqirlla.com
+Musso & Frank Grill,Steakhouse,Hollywood,6667 Hollywood Blvd, Los Angeles, CA 90028,(323) 467-7788,4.6,https://mussoandfrank.com
+Grand Central Market,Various,Downtown LA,317 S Broadway, Los Angeles, CA 90013,(213) 624-2378,4.5,https://grandcentralmarket.com
+Pink’s Hot Dogs,American/Fast Food,Hollywood,709 N La Brea Ave, Los Angeles, CA 90038,(323) 931-4223,4.3,https://pinkshollywood.com
+Philippe The Original,Sandwiches,Downtown LA,1001 N Alameda St, Los Angeles, CA 90012,(213) 628-3781,4.6,https://philippes.com
+Roscoe’s House of Chicken & Waffles,Soul Food,Koreatown,1514 N Gower St, Los Angeles, CA 90028,(323) 466-8355,4.4,https://roscoeschickenandwaffles.com
+Perch,French Rooftop,Downtown LA,448 S Hill St, Los Angeles, CA 90013,(213) 802-1770,4.5,https://perchla.com
+Father’s Office,Gastropub,Santa Monica,3229 Helms Ave, Los Angeles, CA 90034,(310) 736-2224,4.5,https://fathersoffice.com
+The Ivy,American/Californian,West Hollywood,113 N Robertson Blvd, Los Angeles, CA 90048,(310) 274-8303,4.4,https://theivyrestaurants.com
+Spago,Beverly Hills,176 N Canon Dr,, Beverly Hills, CA 90210,(310) 385-0880,4.7,https://wolfgangpuck.com/dining/spago
+Majordomo,Asian Fusion,Chinatown,1725 Naud St, Los Angeles, CA 90012,(323) 545-4880,4.6,https://majordomo.la
+Cassia,French-Vietnamese,Santa Monica,1314 7th St, Santa Monica, CA 90401,(310) 393-6699,4.5,https://cassiala.com
+Animal,American,Fairfax,435 N Fairfax Ave, Los Angeles, CA 90036,(323) 782-9225,4.6,https://animalrestaurant.com
+Tsubaki,Japanese/Izakaya,Silver Lake,1356 Allison Ave, Los Angeles, CA 90026,(213) 900-4900,4.5,https://tsubakila.com
+Petit Trois,French,Hollywood,718 N Highland Ave, Los Angeles, CA 90038,(323) 468-8916,4.6,https://petittrois.com
+Kali,Californian,Larchmont,5722 Melrose Ave, Los Angeles, CA 90038,(323) 871-4160,4.6,https://kalirestaurant.com
+Osteria Mozza,Italian,Hancock Park,6602 Melrose Ave, Los Angeles, CA 90038,(323) 297-0100,4.7,https://osteriamozza.com
+Sapp Coffee Shop,Thai,Hollygrove,5183 Hollywood Blvd, Los Angeles, CA 90027,(323) 665-1035,4.5,https://sappcoffeeshop.com
+Mariscos Jalisco,Mexican Seafood,Boyle Heights,3040 E Olympic Blvd, Los Angeles, CA 90023,(323) 528-6701,4.6,https://mariscosjalisco.com
+Park’s BBQ,Korean,Koreatown,955 S Vermont Ave, Los Angeles, CA 90006,(213) 386-9292,4.7,https://parksbbq.com
+Shibumi,Japanese,Downtown LA,815 S Hill St, Los Angeles, CA 90014,(213) 265-7923,4.6,https://shibumidtla.com
+Connie & Ted’s,Seafood,West Hollywood,8171 Santa Monica Blvd, West Hollywood, CA 90046,(323) 848-2722,4.5,https://connieandteds.com
+Langer’s Deli,Jewish Deli,Westlake,704 S Alvarado St, Los Angeles, CA 90057,(213) 483-8050,4.7,https://langersdeli.com
+Tam O’Shanter,Scottish Pub,Atwater Village,2980 Los Feliz Blvd, Los Angeles, CA 90039,(323) 664-0228,4.6,https://lawrysonline.com/tamoshanter
+Little Sister,Asian Fusion,DTLA,523 W 7th St, Los Angeles, CA 90014,(213) 628-3146,4.5,https://littlesisterla.com
+Gjusta,Bakery/Café,Venice,320 Sunset Ave, Venice, CA 90291,(310) 314-0320,4.7,https://gjusta.com
+Salt’s Cure,American,Hollywood,1155 N Highland Ave, Los Angeles, CA 90038,(323) 465-7258,4.5,https://saltscure.com
+El Compadre,Mexican,Echo Park,1449 W Sunset Blvd, Los Angeles, CA 90026,(213) 250-9639,4.4,https://elcompadrerestaurant.com
+The Original Pantry Café,Diner,Downtown LA,877 S Figueroa St, Los Angeles, CA 90017,(213) 972-9279,4.5,https://pantrycafe.com
+Gracias Madre,Vegan Mexican,West Hollywood,8905 Melrose Ave, West Hollywood, CA 90069,(323) 978-2170,4.6,https://graciasmadre.co
+Cafe Gratitude,Vegan,Venice,512 Rose Ave, Venice, CA 90291,(424) 231-8000,4.5,https://cafegratitude.com
+Manzke,French Fine Dining,Pico-Robertson,9575 W Pico Blvd, Los Angeles, CA 90035,(424) 500-9575,4.8,https://manzke.com
+Chi Spacca,Italian Steakhouse,Hancock Park,6610 Melrose Ave, Los Angeles, CA 90038,(323) 297-1133,4.7,https://chispacca.com
+KazuNori,Japanese Hand Rolls,Downtown LA,421 S Main St, Los Angeles, CA 90013,(213) 493-6956,4.6,https://kazunori.com
+Sushi Gen,Japanese,Little Tokyo,422 E 2nd St, Los Angeles, CA 90012,(213) 617-0552,4.7,https://sushigenla.com
+Daikokuya,Japanese Ramen,Little Tokyo,327 E 1st St, Los Angeles, CA 90012,(213) 626-1680,4.6,https://daikokuya.com
+Marugame Monzo,Japanese Udon,Little Tokyo,329 E 1st St, Los Angeles, CA 90012,(213) 617-1016,4.5,https://marugamemonzo.com
+Tsujita LA Artisan Noodle,Japanese Ramen,West LA,2057 Sawtelle Blvd, Los Angeles, CA 90025,(310) 231-7373,4.6,https://tsujita-la.com
+Soban,Korean,Koreatown,4001 W Olympic Blvd, Los Angeles, CA 90019,(323) 936-9106,4.5,https://sobanla.com
+Sun Nong Dan,Korean,Koreatown,3470 W 6th St, Los Angeles, CA 90020,(213) 365-0303,4.6,https://sunnongdanla.com
+Genwa Korean BBQ,Korean,Koreatown,5115 Wilshire Blvd, Los Angeles, CA 90036,(323) 549-0760,4.6,https://genwakoreanbbq.com
+Hanjip,Korean BBQ,Culver City,3829 Main St, Culver City, CA 90232,(323) 720-8804,4.5,https://hanjipbbq.com
+El Ruso,Mexican Tacos,Silver Lake,1401 Mirasol St, Los Angeles, CA 90023,(323) 262-6666,4.7,https://elruso.com
+Tacos 1986,Mexican Tacos,Downtown LA,609 S Spring St, Los Angeles, CA 90014,(213) 988-7200,4.6,https://tacos1986.com
+Leo’s Tacos Truck,Mexican Street Food,Mid-City,1515 S La Brea Ave, Los Angeles, CA 90019,(323) 555-1212,4.5,https://leostacos.com
+El Chato Taco Truck,Mexican Street Food,Mid-City,5300 W Olympic Blvd, Los Angeles, CA 90019,(323) 555-2121,4.6,https://elchatotruck.com
+Guerrilla Tacos,Modern Mexican,Arts District,2000 E 7th St, Los Angeles, CA 90021,(213) 375-3300,4.6,https://guerrillatacos.com
+Broken Spanish,Modern Mexican,Downtown LA,1050 S Flower St, Los Angeles, CA 90015,(213) 749-1460,4.5,https://brokenspanish.com
+El Cochinito,Cuban,Silver Lake,3508 Sunset Blvd, Los Angeles, CA 90026,(323) 668-0737,4.5,https://elcochinito.com
+Versailles,Cuban,Palms,1415 S La Cienega Blvd, Los Angeles, CA 90035,(310) 289-0396,4.5,https://versaillescuban.com
+La Carreta,Cuban,Downtown LA,865 S Figueroa St, Los Angeles, CA 90017,(213) 555-3434,4.4,https://lacarreta.com
+Little Ethiopia Restaurant,Ethiopian,Little Ethiopia,1048 S Fairfax Ave, Los Angeles, CA 90019,(323) 936-9343,4.5,https://littleethiopiarestaurant.com
+Messob,Ethiopian,Little Ethiopia,1041 S Fairfax Ave, Los Angeles, CA 90019,(323) 938-8827,4.6,https://messob.com
+Rosalind’s,Ethiopian,Little Ethiopia,1044 S Fairfax Ave, Los Angeles, CA 90019,(323) 936-2486,4.5,https://rosalindsrestaurant.com
+Meals by Genet,Ethiopian,Little Ethiopia,1053 S Fairfax Ave, Los Angeles, CA 90019,(323) 938-9304,4.7,https://mealsbygenetla.com
+Carousel Restaurant,Armenian,Glendale,5112 Hollywood Blvd, Los Angeles, CA 90027,(323) 660-8060,4.6,https://carouselrestaurant.com
+Raffi’s Place,Persian,Glendale,211 E Broadway, Glendale, CA 91205,(818) 240-7411,4.7,https://raffisplace.com
+Shamshiri Grill,Persian,Westwood,1712 Westwood Blvd, Los Angeles, CA 90024,(310) 474-1410,4.5,https://shamshirigrill.com
+Darya,Persian,Westwood,12130 Santa Monica Blvd, Los Angeles, CA 90025,(310) 820-1000,4.6,https://daryarestaurant.com
+Al Wazir Chicken,Middle Eastern,Hollywood,5583 Santa Monica Blvd, Los Angeles, CA 90038,(323) 962-2920,4.5,https://alwazirchicken.com
+Carousel Shawarma,Middle Eastern,Hollywood,5112 Hollywood Blvd, Los Angeles, CA 90027,(323) 660-8060,4.6,https://carouselrestaurant.com
+Marouch,Middle Eastern,East Hollywood,4905 Santa Monica Blvd, Los Angeles, CA 90029,(323) 662-9325,4.6,https://marouchrestaurant.com
+Zankou Chicken,Middle Eastern,East Hollywood,5065 Sunset Blvd, Los Angeles, CA 90027,(323) 665-7847,4.5,https://zankouchicken.com
+Bavel,Middle Eastern,Arts District,500 Mateo St, Los Angeles, CA 90013,(213) 232-4966,4.7,https://baveldtla.com
+Saffy’s,Middle Eastern,East Hollywood,4850 Fountain Ave, Los Angeles, CA 90029,(323) 555-4545,4.6,https://saffysla.com
+Jitlada,Thai,East Hollywood,5233 Sunset Blvd, Los Angeles, CA 90027,(323) 667-9809,4.7,https://jitladala.com
+Night + Market Song,Thai,Silver Lake,3322 Sunset Blvd, Los Angeles, CA 90026,(323) 665-5899,4.6,https://nightmarketsong.com
+Ruen Pair,Thai,Hollywood,5257 Hollywood Blvd, Los Angeles, CA 90027,(323) 466-0153,4.5,https://ruenpairla.com
+Palms Thai,Thai,Hollywood,5900 Hollywood Blvd, Los Angeles, CA 90028,(323) 462-5073,4.5,https://palmsthai.com
+Ayara Thai Cuisine,Thai,Westchester,6245 W 87th St, Los Angeles, CA 90045,(310) 410-8848,4.6,https://ayarathai.com
+Chengdu Taste,Chinese,Alhambra,828 W Valley Blvd, Alhambra, CA 91803,(626) 588-2284,4.7,https://chengdutaste.com
+Din Tai Fung,Chinese,Downtown LA,10250 Santa Monica Blvd, Los Angeles, CA 90067,(424) 382-1118,4.7,https://dintaifungusa.com
+Jar,Steakhouse,Beverly Grove,8225 Beverly Blvd, Los Angeles, CA 90048,(323) 655-6566,4.6,https://thejar.com
+Lucques,Californian,Beverly Grove,8474 Melrose Ave, Los Angeles, CA 90069,(323) 655-6277,4.5,https://lucques.com
+AOC,Small Plates/Wine Bar,West Hollywood,8700 W 3rd St, Los Angeles, CA 90048,(310) 859-9859,4.6,https://aocwinebar.com
+Hinoki & the Bird,Asian Fusion,Century City,10 W Century Dr, Los Angeles, CA 90067,(310) 552-1200,4.5,https://hinokiandthebird.com
+Redbird,Modern American,Downtown LA,114 E 2nd St, Los Angeles, CA 90012,(213) 788-1191,4.7,https://redbird.la
+Faith & Flower,Californian,Downtown LA,705 W 9th St, Los Angeles, CA 90015,(213) 239-0642,4.5,https://faithandflowerla.com
+Water Grill,Seafood,Downtown LA,544 S Grand Ave, Los Angeles, CA 90071,(213) 891-0900,4.6,https://watergrill.com
+The Palm,Steakhouse,Downtown LA,1100 S Flower St, Los Angeles, CA 90015,(213) 763-4600,4.5,https://thepalm.com
+Nick & Stef’s Steakhouse,Steakhouse,Downtown LA,330 S Hope St, Los Angeles, CA 90071,(213) 680-0330,4.6,https://nickandstefs.com
+Mortons The Steakhouse,Steakhouse,Burbank,735 S Figueroa St, Los Angeles, CA 90017,(213) 553-4566,4.5,https://mortons.com
+Cut by Wolfgang Puck,Steakhouse,Beverly Hills,9500 Wilshire Blvd, Beverly Hills, CA 90212,(310) 276-8500,4.7,https://wolfgangpuck.com/dining/cut
+Lawry’s The Prime Rib,Steakhouse,Beverly Hills,100 N La Cienega Blvd, Beverly Hills, CA 90211,(310) 652-2827,4.6,https://lawrysonline.com
+Taylor’s Steakhouse,Steakhouse,Koreatown,3361 W 8th St, Los Angeles, CA 90005,(213) 382-8449,4.5,https://taylorssteakhouse.com
+Pacific Dining Car,Steakhouse,Downtown LA,1310 W 6th St, Los Angeles, CA 90017,(213) 483-6000,4.6,https://pacificdiningcar.com
+Engine Co. No. 28,American,Downtown LA,644 S Figueroa St, Los Angeles, CA 90017,(213) 624-6996,4.5,https://engineco.com
+The Factory Kitchen,Italian,Arts District,1300 Factory Pl, Los Angeles, CA 90013,(213) 996-6000,4.6,https://thefactorykitchen.com
+Maccheroni Republic,Italian,Downtown LA,332 S Broadway, Los Angeles, CA 90013,(213) 346-9933,4.5,https://maccheronirepublic.com
+Rossoblu,Italian,Downtown LA,1124 San Julian St, Los Angeles, CA 90015,(213) 749-1099,4.6,https://rossoblula.com
+Angelini Osteria,Italian,Mid-City,7313 Beverly Blvd, Los Angeles, CA 90036,(323) 297-0070,4.7,https://angeliniosteria.com
+Il Pastaio,Italian,Beverly Hills,400 N Canon Dr, Beverly Hills, CA 90210,(310) 205-5444,4.6,https://ilpastaio.com
+Madeo,Italian,Beverly Hills,362 N Camden Dr, Beverly Hills, CA 90210,(310) 859-4903,4.5,https://madeorestaurant.com
+Drago Centro,Italian,Downtown LA,525 S Flower St, Los Angeles, CA 90071,(213) 228-8998,4.6,https://dragocentro.com
+Osteria La Buca,Italian,Hollywood,5210 Melrose Ave, Los Angeles, CA 90038,(323) 462-1900,4.5,https://osterialabuca.com
+Pizzana,Pizza,Brentwood,11712 Barrington Ct, Los Angeles, CA 90049,(310) 481-7108,4.6,https://pizzana.com
+Joe’s Pizza,Pizza,Hollywood,6504 Hollywood Blvd, Los Angeles, CA 90028,(323) 466-1188,4.5,https://joespizzany.com
+Pizzeria Mozza,Pizza,Hancock Park,641 N Highland Ave, Los Angeles, CA 90036,(323) 297-0101,4.7,https://pizzeriamozza.com
+Prime Pizza,Pizza,Fairfax,446 N Fairfax Ave, Los Angeles, CA 90036,(323) 944-0737,4.5,https://primepizza.la
+DeSano Pizza Bakery,Pizza,East Hollywood,4959 Santa Monica Blvd, Los Angeles, CA 90029,(323) 913-7000,4.6,https://desanopizza.com
+Casa Bianca Pizza Pie,Pizza,Eagle Rock,1650 Colorado Blvd, Los Angeles, CA 90041,(323) 256-9617,4.5,https://casabiancapizza.com
+Little Dom’s,Italian/East Coast,Los Feliz,2128 Hillhurst Ave, Los Angeles, CA 90027,(323) 661-0055,4.6,https://littledoms.com
+Fig & Olive,Mediterranean,West Hollywood,8490 Melrose Pl, Los Angeles, CA 90069,(310) 360-9100,4.5,https://figandolive.com
+Open Sesame,Mediterranean,Long Beach,745 E Broadway, Long Beach, CA 90802,(562) 437-1517,4.6,https://opensesamegrill.com
+Dune,Mediterranean,Atwater Village,3143 Glendale Blvd, Los Angeles, CA 90039,(323) 665-7454,4.6,https://dunela.com
+Saffron & Rose,Persian,Westwood,1387 Westwood Blvd, Los Angeles, CA 90024,(310) 441-5555,4.5,https://saffronrose.com
+Shaherzad,Persian,Westwood,1422 Westwood Blvd, Los Angeles, CA 90024,(310) 470-3242,4.6,https://shaherzadrestaurant.com
+Taste of Tehran,Persian,Westwood,1915 Westwood Blvd, Los Angeles, CA 90025,(310) 475-0039,4.5,https://tasteoftehran.com
+Flame Persian Cuisine,Persian,Westwood,1442 Westwood Blvd, Los Angeles, CA 90024,(310) 470-3399,4.6,https://flamela.com
+Carousel Restaurant,Armenian,Hollywood,5112 Hollywood Blvd, Los Angeles, CA 90027,(323) 660-8060,4.6,https://carouselrestaurant.com
+Jitlada,Thai,East Hollywood,5233 Sunset Blvd, Los Angeles, CA 90027,(323) 667-9809,4.7,n/a
+The Butcher’s Daughter,Vegan/Vegetarian,Venice,1205 Abbot Kinney Blvd, Venice, CA 90291,(310) 981-3004,4.5,https://thebutchersdaughter.com
+Rose Café,Californian,Venice,220 Rose Ave, Venice, CA 90291,(310) 399-0711,4.6,https://rosecafevenice.com
+Hatchet Hall,American,Culver City,12517 Washington Blvd, Culver City, CA 90232,(310) 391-4222,4.7,https://hatchethallla.com
+Lukshon,Asian Fusion,Culver City,3239 Helms Ave, Culver City, CA 90232,(310) 202-8631,4.6,https://lukshon.com
+Father’s Office,Gastropub,Culver City,3229 Helms Ave, Los Angeles, CA 90034,(310) 736-2224,4.5,https://fathersoffice.com
+Loqui,Mexican,Culver City,8820 Washington Blvd, Culver City, CA 90232,(310) 220-7260,4.6,https://eatloqui.com
+Destroyer,Café,Culver City,3578 Hayden Ave, Culver City, CA 90232,(310) 360-3860,4.6,https://destroyer.la
+Margot,Italian/Spanish,Culver City,8820 Washington Blvd, Culver City, CA 90232,(424) 599-2555,4.7,https://margot.la
+Eataly Los Angeles,Italian,Century City,10250 Santa Monica Blvd, Los Angeles, CA 90067,(213) 310-8000,4.6,https://eataly.com
+Craft Los Angeles,American,Century City,10100 Constellation Blvd, Los Angeles, CA 90067,(310) 279-4180,4.6,https://craftlosangeles.com
+Tavern,Californian,Brentwood,11648 San Vicente Blvd, Los Angeles, CA 90049,(310) 806-6464,4.6,https://tavernla.com
+Baltaire,Steakhouse,Brentwood,11647 San Vicente Blvd, Los Angeles, CA 90049,(424) 273-1660,4.7,https://baltaire.com
+Aldea,Portuguese,Brentwood,11800 San Vicente Blvd, Los Angeles, CA 90049,(310) 555-1212,4.5,https://aldeala.com
+Nobu Los Angeles,Japanese,West Hollywood,903 N La Cienega Blvd, Los Angeles, CA 90069,(310) 657-5711,4.7,https://noburestaurants.com
+Catch LA,Seafood,West Hollywood,8715 Melrose Ave, West Hollywood, CA 90069,(323) 347-6060,4.6,https://catchrestaurants.com
+Craig’s,American,West Hollywood,8826 Melrose Ave, West Hollywood, CA 90069,(310) 276-1900,4.5,https://craigs.la
+SUR Restaurant,Mediterranean,West Hollywood,606 N Robertson Blvd, West Hollywood, CA 90069,(310) 289-2824,4.4,https://surrestaurant.com
+Pump Restaurant,Californian,West Hollywood,8948 Santa Monica Blvd, West Hollywood, CA 90069,(310) 657-7867,4.4,https://pumprestaurant.com
+Norah,Californian,West Hollywood,8279 Santa Monica Blvd, West Hollywood, CA 90046,(323) 450-4211,4.6,https://norahla.com
+Laurel Hardware,American,West Hollywood,7984 Santa Monica Blvd, West Hollywood, CA 90046,(323) 654-3277,4.5,https://laurelhardware.com
+Jones Hollywood,Italian,West Hollywood,7205 Santa Monica Blvd, West Hollywood, CA 90046,(323) 850-1726,4.5,https://joneshollywood.com
+E.P. & L.P.,Asian Fusion,West Hollywood,603 N La Cienega Blvd, West Hollywood, CA 90069,(310) 855-9955,4.6,https://eplosangeles.com
+BOA Steakhouse,Steakhouse,West Hollywood,9200 Sunset Blvd, West Hollywood, CA 90069,(310) 278-4232,4.6,https://boasteak.com
+Katana,Japanese,West Hollywood,8439 W Sunset Blvd, West Hollywood, CA 90069,(323) 650-8585,4.6,https://katanarobata.com
+Tesse,French,West Hollywood,8500 Sunset Blvd, West Hollywood, CA 90069,(310) 652-8351,4.6,https://tesserestaurant.com
+The Tower Bar,American,West Hollywood,8358 Sunset Blvd, West Hollywood, CA 90069,(323) 654-7100,4.6,https://sunsettowerhotel.com
+The Griddle Café,Breakfast,Hollywood,7916 Sunset Blvd, Los Angeles, CA 90046,(323) 874-0377,4.6,https://thegriddlecafe.com
+Paley,American,Hollywood,6115 Sunset Blvd, Los Angeles, CA 90028,(323) 544-7500,4.5,https://paleyhollywood.com
+Mama Shelter Rooftop,Californian,Hollywood,6500 Selma Ave, Los Angeles, CA 90028,(323) 785-6666,4.5,https://mamashelter.com
+Katsuya,Japanese,Hollywood,6300 Hollywood Blvd, Los Angeles, CA 90028,(323) 871-8777,4.6,https://katsuya.com
+Tao Los Angeles,Asian Fusion,Hollywood,6421 Selma Ave, Los Angeles, CA 90028,(323) 593-7888,4.6,https://taolosangeles.com
+Cleopatra’s Barge,Mediterranean,Hollywood,6500 Hollywood Blvd, Los Angeles, CA 90028,(323) 555-3434,4.5,https://cleopatrasbarge.com
+Pine & Crane,Taiwanese,Silver Lake,1521 Griffith Park Blvd, Los Angeles, CA 90026,(323) 668-1128,4.6,https://pineandcrane.com
+Alimento,Italian,Silver Lake,1710 Silver Lake Blvd, Los Angeles, CA 90026,(323) 928-2888,4.6,https://alimentola.com
+Cliff’s Edge,Mediterranean,Silver Lake,3626 Sunset Blvd, Los Angeles, CA 90026,(323) 666-6116,4,n/a
+Petit Trois Le Valley,French,Sherman Oaks,13705 Ventura Blvd, Sherman Oaks, CA 91423,(818) 989-2600,4.6,https://petittrois.com
+Mélisse,Fine Dining,Santa Monica,1104 Wilshire Blvd, Santa Monica, CA 90401,(310) 395-0881,4.8,https://melisse.com
+Rustic Canyon,Californian,Santa Monica,1119 Wilshire Blvd, Santa Monica, CA 90401,(310) 393-7050,4.7,https://rusticcanyonrestaurant.com
+Cassia,French-Vietnamese,Santa Monica,1314 7th St, Santa Monica, CA 90401,(310) 393-6699,4.6,https://cassiala.com
+Tar & Roses,Californian,Santa Monica,602 Santa Monica Blvd, Santa Monica, CA 90401,(310) 587-0700,4.6,https://tarandroses.com
+Huckleberry Café,Bakery/Café,Santa Monica,1014 Wilshire Blvd, Santa Monica, CA 90401,(310) 845-1750,4.5,https://huckleberrycafe.com
+Bay Cities Italian Deli,Deli,Santa Monica,1517 Lincoln Blvd, Santa Monica, CA 90401,(310) 395-8279,4.7,https://baycitiesdeli.com
+The Lobster,Seafood,Santa Monica,1602 Ocean Ave, Santa Monica, CA 90401,(310) 458-9294,4.6,https://thelobsster.com
+Michael’s,Santa Monica,Californian,1147 3rd St, Santa Monica, CA 90403,(310) 451-0843,4.6,https://michaelssm.com
+Forma,Italian,West LA,1610 Montana Ave, Santa Monica, CA 90403,(310) 424-5212,4.6,https://formarestaurant.com
+Il Ristorante di Giorgio Baldi,Italian,Pacific Palisades,114 W Channel Rd, Santa Monica, CA 90402,(310) 573-1660,4.7,https://giorgiobaldi.us
+Shutters on the Beach,Californian,Santa Monica,1 Pico Blvd, Santa Monica, CA 90405,(310) 458-0030,4.6,https://shuttersonthebeach.com
+Blue Plate Oysterette,Seafood,Santa Monica,1355 Ocean Ave, Santa Monica, CA 90401,(310) 576-3474,4.5,https://blueplatesantamonica.com
+Cha Cha Chicken,Caribbean,Santa Monica,1906 Ocean Ave, Santa Monica, CA 90405,(310) 581-1684,4.6,https://chachachicken.com
+Back on the Beach Café,Café,Santa Monica,445 Pacific Coast Hwy, Santa Monica, CA 90402,(310) 393-8282,4.5,https://backonthebeachcafe.com
+The Misfit Restaurant + Bar,American,Santa Monica,225 Santa Monica Blvd, Santa Monica, CA 90401,(310) 656-9800,4.5,https://misfitrestaurant.com
+Sweetfin,Poke,Santa Monica,829 Broadway, Santa Monica, CA 90401,(310) 899-7900,4.6,https://sweetfin.com
+True Food Kitchen,Healthy,Santa Monica,395 Santa Monica Pl, Santa Monica, CA 90401,(310) 593-8300,4.6,https://truefoodkitchen.com
+Hillstone,American,Santa Monica,202 Wilshire Blvd, Santa Monica, CA 90401,(310) 576-7558,4.6,https://hillstone.com
+The Penthouse,Californian,Santa Monica,1111 2nd St, Santa Monica, CA 90403,(310) 394-5454,4.6,https://thesantamonicahotel.com
+Ocean Prime,Seafood,Beverly Hills,9595 Wilshire Blvd, Beverly Hills, CA 90212,(310) 552-1234,4.7,https://ocean-prime.com
+Il Cielo,Italian,Beverly Hills,9018 Burton Way, Beverly Hills, CA 90211,(310) 276-9990,4.6,https://ilcielo.com
+Mastro’s Steakhouse,Steakhouse,Beverly Hills,246 N Canon Dr, Beverly Hills, CA 90210,(310) 888-8782,4.7,https://mastrosrestaurants.com
+Avra Beverly Hills,Greek,Beverly Hills,233 N Beverly Dr, Beverly Hills, CA 90210,(310) 734-0841,4.6,https://avrabeverlyhills.com
+Crustacean,Asian Fusion,Beverly Hills,468 N Bedford Dr, Beverly Hills, CA 90210,(310) 205-8990,4.6,https://crustaceanbh.com
+Il Fornaio,Italian,Beverly Hills,301 N Beverly Dr, Beverly Hills, CA 90210,(310) 550-8330,4.5,https://ilfornaio.com
+The Grill on the Alley,Steakhouse,Beverly Hills,9560 Dayton Way, Beverly Hills, CA 90210,(310) 276-0615,4.6,https://thegrill.com
+Nate ’n Al,Deli,Beverly Hills,414 N Beverly Dr, Beverly Hills, CA 90210,(310) 274-0101,4.5,https://natenal.com
+The Bazaar by José Andrés,Spanish,Beverly Grove,465 La Cienega Blvd, Los Angeles, CA 90048,(310) 246-5555,4.6,https://thebazaar.com
+Otium,Modern American,Downtown LA,222 S Hope St, Los Angeles, CA 90012,(213) 935-8500,4.7,https://otiumla.com
+Republique Café,Bakery/Café,Hancock Park,624 S La Brea Ave, Los Angeles, CA 90005,(310) 362-6115,4.6,https://republiquela.com
+Jon & Vinny’s Brentwood,Italian/American,Brentwood,11938 San Vicente Blvd, Los Angeles, CA 90049,(310) 442-2733,4.5,https://jonandvinnys.com
+Sqirl Virgil Village,Café/American,Virgil Village,720 N Virgil Ave #4, Los Angeles, CA 90029,(323) 284-8147,4.4,https://sqirlla.com
+Guelaguetza Mole,Oaxacan/Korean,Koreatown,3014 W Olympic Blvd, Los Angeles, CA 90006,(213) 427-0608,4.6,https://ilovemole.com
+Providence Fine Dining,Seafood,Hollywood,5955 Melrose Ave, Los Angeles, CA 90038,(323) 460-4170,4.8,https://providencela.com
+n/naka Kaiseki,Japanese,Palms,3455 S Overland Ave, Los Angeles, CA 90034,(310) 836-6252,4.9,https://nnaka.com
+Bestia Arts District,Italian,Arts District,2121 E 7th Pl, Los Angeles, CA 90021,(213) 514-5724,4.7,https://bestiala.com
+Bavel Arts District,Middle Eastern,Arts District,500 Mateo St, Los Angeles, CA 90013,(213) 232-4966,4.7,https://baveldtla.com
+Rossoblu Downtown,Italian,Downtown LA,1124 San Julian St, Los Angeles, CA 90015,(213) 749-1099,4.6,https://rossoblula.com
+Maccheroni Republic Downtown,Italian,Downtown LA,332 S Broadway, Los Angeles, CA 90013,(213) 346-9933,4.5,https://maccheronirepublic.com
+Il Pastaio Beverly Hills,Italian,Beverly Hills,400 N Canon Dr, Beverly Hills, CA 90210,(310) 205-5444,4.6,https://ilpastaio.com
+Madeo Beverly Hills,Italian,Beverly Hills,362 N Camden Dr, Beverly Hills, CA 90210,(310) 859-4903,4.5,https://madeorestaurant.com
+Drago Centro Downtown,Italian,Downtown LA,525 S Flower St, Los Angeles, CA 90071,(213) 228-8998,4.6,https://dragocentro.com
+Osteria La Buca Hollywood,Italian,Hollywood,5210 Melrose Ave, Los Angeles, CA 90038,(323) 462-1900,4.5,https://osterialabuca.com
+Pizzana Brentwood,Pizza,Brentwood,11712 Barrington Ct, Los Angeles, CA 90049,(310) 481-7108,4.6,https://pizzana.com
+Joe’s Pizza Hollywood,Pizza,Hollywood,6504 Hollywood Blvd, Los Angeles, CA 90028,(323) 466-1188,4.5,https://joespizzany.com
+Prime Pizza Fairfax,Pizza,Fairfax,446 N Fairfax Ave, Los Angeles, CA 90036,(323) 944-0737,4.5,https://primepizza.la
+Casa Bianca Pizza,Pizza,Eagle Rock,1650 Colorado Blvd, Los Angeles, CA 90041,(323) 256-9617,4.5,https://casabiancapizza.com
+Little Dom’s Los Feliz,Italian,Los Feliz,2128 Hillhurst Ave, Los Angeles, CA 90027,(323) 661-0055,4.6,https://littledoms.com
+Fig & Olive West Hollywood,Mediterranean,West Hollywood,8490 Melrose Pl, Los Angeles, CA 90069,(310) 360-9100,4.5,https://figandolive.com
+Dune Atwater Village,Mediterranean,Atwater Village,3143 Glendale Blvd, Los Angeles, CA 90039,(323) 665-7454,4.6,https://dunela.com
+Shamshiri Grill Westwood,Persian,Westwood,1712 Westwood Blvd, Los Angeles, CA 90024,(310) 474-1410,4.5,https://shamshirigrill.com
+Raffi’s Place Glendale,Persian,Glendale,211 E Broadway, Glendale, CA 91205,(818) 240-7411,4.7,https://raffisplace.com
+Carousel Restaurant Hollywood,Armenian,Hollywood,5112 Hollywood Blvd, Los Angeles, CA 90027,(323) 660-8060,4.6,https://carouselrestaurant.com
+Marouch East Hollywood,Middle Eastern,East Hollywood,4905 Santa Monica Blvd, Los Angeles, CA 90029,(323) 662-9325,4.6,https://marouchrestaurant.com
+Zankou Chicken Hollywood,Middle Eastern,East Hollywood,5065 Sunset Blvd, Los Angeles, CA 90027,(323) 665-7847,4.5,https://zankouchicken.com
+Saffy’s East Hollywood,Middle Eastern,East Hollywood,4850 Fountain Ave, Los Angeles, CA 90029,(323) 555-4545,4.6,https://saffysla.com
+Jitlada Thai,Thai,East Hollywood,5233 Sunset Blvd, Los Angeles, CA 90027,(323) 667-9809,4.7,https://jitladala.com
+Night + Market Song Silver Lake,Thai,Silver Lake,3322 Sunset Blvd, Los Angeles, CA 90026,(323) 665-5899,4.6,https://nightmarketsong.com
+Ruen Pair Thai,Thai,Hollywood,5257 Hollywood Blvd, Los Angeles, CA 90027,(323) 466-0153,4.5,https://ruenpairla.com
+Palms Thai Hollywood,Thai,Hollywood,5900 Hollywood Blvd, Los Angeles, CA 90028,(323) 462-5073,4.5,https://palmsthai.com
+Sapp Coffee Shop Thai,Thai,Hollygrove,5183 Hollywood Blvd, Los Angeles, CA 90027,(323) 665-1035,4.5,https://sappcoffeeshop.com
+Chengdu Taste Alhambra,Chinese,Alhambra,828 W Valley Blvd, Alhambra, CA 91803,(626) 588-2284,4.7,https://chengdutaste.com
+Din Tai Fung Century City,Chinese,Century City,10250 Santa Monica Blvd, Los Angeles, CA 90067,(424) 382-1118,4.7,https://dintaifungusa.com
+Sea Harbour San Gabriel,Chinese,San Gabriel,3939 Rosemead Blvd, San Gabriel, CA 91770,(626) 288-3939,4.7,https://seaharbourla.com
+Lunasia Dim Sum House,Chinese,Pasadena,239 S Fair Oaks Ave, Pasadena, CA 91105,(626) 793-8822,4.6,https://lunasiarestaurant.com
+NBC Seafood Restaurant,Chinese,Monterey Park,404 S Atlantic Blvd, Monterey Park, CA 91754,(626) 282-2323,4.6,https://nbcseafood.com
+Elite Restaurant,Chinese,Monterey Park,700 S Atlantic Blvd, Monterey Park, CA 91754,(626) 282-9998,4.6,https://eliterestaurantla.com
+Capital Seafood,Chinese,Beverly Hills,50 N La Cienega Blvd, Beverly Hills, CA 90211,(310) 855-1234,4.5,https://capitalseafood.com
+Little Sister Downtown,Asian Fusion,Downtown LA,523 W 7th St, Los Angeles, CA 90014,(213) 628-3146,4.5,https://littlesisterla.com
+All Day Baby Silver Lake,Diner,Silver Lake,3200 Sunset Blvd, Los Angeles, CA 90026,(323) 741-0082,4.6,https://alldaybabyla.com
+Manuela,American,Arts District,907 E 3rd St, Los Angeles, CA 90013,(323) 849-0480,4.6,https://manuela-la.com
+Everson Royce Bar,American,Downtown LA,1936 E 7th St, Los Angeles, CA 90021,(213) 335-6166,4.5,https://erb.la
+Yang Chow,Chinese,Downtown LA,819 N Broadway, Los Angeles, CA 90012,(213) 625-0765,4.5,https://yangchow.com
+Nick’s Cafe,Diner,Downtown LA,1300 N Spring St, Los Angeles, CA 90012,(323) 222-1450,4.5,https://nickscafela.com
+Cole’s French Dip,Sandwiches,Downtown LA,118 E 6th St, Los Angeles, CA 90014,(213) 622-4090,4.4,https://colesfrenchdip.com
+El Ruso,Tacos,Silver Lake,1401 Mirasol St, Los Angeles, CA 90023,(323) 262-6666,4.7,https://elruso.com
+Leo’s Taco Truck,Tacos,Mid-City,1515 S La Brea Ave, Los Angeles, CA 90019,(323) 555-1212,4.5,https://leostacos.com
+El Chato Taco Truck,Tacos,Mid-City,5300 W Olympic Blvd, Los Angeles, CA 90019,(323) 555-2121,4.6,https://elchatotruck.com
+Honey’s Kettle Fried Chicken,Soul Food,Culver City,9537 Culver Blvd, Culver City, CA 90232,(310) 202-5453,4.6,https://honeyskettle.com
+Dulan’s Soul Food Kitchen,Soul Food,Inglewood,202 E Manchester Blvd, Inglewood, CA 90301,(310) 671-3345,4.6,https://dulans.com
+Harold & Belle’s,Creole,Jefferson Park,2920 W Jefferson Blvd, Los Angeles, CA 90018,(323) 735-9023,4.6,https://haroldandbellesrestaurant.com
+Republique Bakery,French,Hancock Park,624 S La Brea Ave, Los Angeles, CA 90005,(310) 362-6115,4.6,https://republiquela.com
+Jon & Vinny’s Slauson,Italian/American,South LA,4475 Slauson Ave, Los Angeles, CA 90043,(323) 555-1212,4.5,https://jonandvinnys.com
+Sqirl East Hollywood,Café/American,East Hollywood,720 N Virgil Ave #4, Los Angeles, CA 90029,(323) 284-8147,4.4,https://sqirlla.com
+Guelaguetza Mole House,Oaxacan,Koreatown,3014 W Olympic Blvd, Los Angeles, CA 90006,(213) 427-0608,4.6,https://ilovemole.com
+Providence Seafood,Seafood,Hollywood,5955 Melrose Ave, Los Angeles, CA 90038,(323) 460-4170,4.8,https://providencela.com
+n/naka Japanese,Japanese,Palms,3455 S Overland Ave, Los Angeles, CA 90034,(310) 836-6252,4.9,https://nnaka.com
+Bestia Downtown,Italian,Arts District,2121 E 7th Pl, Los Angeles, CA 90021,(213) 514-5724,4.7,https://bestiala.com
+Bavel Downtown,Middle Eastern,Arts District,500 Mateo St, Los Angeles, CA 90013,(213) 232-4966,4.7,https://baveldtla.com
+Rossoblu Italian,Italian,Downtown LA,1124 San Julian St, Los Angeles, CA 90015,(213) 749-1099,4.6,https://rossoblula.com
+Maccheroni Republic Italian,Italian,Downtown LA,332 S Broadway, Los Angeles, CA 90013,(213) 346-9933,4.5,https://maccheronirepublic.com
+Angelini Osteria Italian,Italian,Mid-City,7313 Beverly Blvd, Los Angeles, CA 90036,(323) 297-0070,4.7,https://angeliniosteria.com
+Il Pastaio Italian,Italian,Beverly Hills,400 N Canon Dr, Beverly Hills, CA 90210,(310) 205-5444,4.6,https://ilpastaio.com
+Madeo Italian,Italian,Beverly Hills,362 N Camden Dr, Beverly Hills, CA 90210,(310) 859-4903,4.5,https://madeorestaurant.com
+Drago Centro Italian,Italian,Downtown LA,525 S Flower St, Los Angeles, CA 90071,(213) 228-8998,4.6,https://dragocentro.com
+Osteria La Buca Italian,Italian,Hollywood,5210 Melrose Ave, Los Angeles, CA 90038,(323) 462-1900,4.5,https://osterialabuca.com
+Pizzana West Hollywood,Pizza,West Hollywood,460 N Robertson Blvd, West Hollywood, CA 90048,(310) 481-7108,4.6,https://pizzana.com
+Joe’s Pizza Downtown,Pizza,Downtown LA,232 S Broadway, Los Angeles, CA 90012,(213) 555-3434,4.5,https://joespizzany.com
+Prime Pizza Downtown,Pizza,Downtown LA,7111 Melrose Ave, Los Angeles, CA 90046,(323) 944-0737,4.5,https://primepizza.la
+DeSano Pizza Downtown,Pizza,East Hollywood,4959 Santa Monica Blvd, Los Angeles, CA 90029,(323) 913-7000,4.6,https://desanopizza.com
+Casa Bianca Pizza Downtown,Pizza,Eagle Rock,1650 Colorado Blvd, Los Angeles, CA 90041,(323) 256-9617,4.5,https://casabiancapizza.com
+Little Dom’s Italian,Italian,Los Feliz,2128 Hillhurst Ave, Los Angeles, CA 90027,(323) 661-0055,4.6,https://littledoms.com
+Fig & Olive Mediterranean,Mediterranean,West Hollywood,8490 Melrose Pl, Los Angeles, CA 90069,(310) 360-9100,4.5,https://figandolive.com
+Dune Mediterranean,Mediterranean,Atwater Village,3143 Glendale Blvd, Los Angeles, CA 90039,(323) 665-7454,4.6,https://dunela.com
+Shamshiri Grill Persian,Persian,Westwood,1712 Westwood Blvd, Los Angeles, CA 90024,(310) 474-1410,4.5,https://shamshirigrill.com
+Raffi’s Place Persian,Persian,Glendale,211 E Broadway, Glendale, CA 91205,(818) 240-7411,4.7,https://raffisplace.com
+Carousel Restaurant Armenian,Armenian,Hollywood,5112 Hollywood Blvd, Los Angeles, CA 90027,(323) 660-8060,4.6,https://carouselrestaurant.com
+Marouch Middle Eastern,Middle Eastern,East Hollywood,4905 Santa Monica Blvd, Los Angeles, CA 90029,(323) 662-9325,4.6,https://marouchrestaurant.com
+Zankou Chicken Middle Eastern,Middle Eastern,East Hollywood,5065 Sunset Blvd, Los Angeles, CA 90027,(323) 665-7847,4.5,https://zankouchicken.com
+Saffy’s Middle Eastern,Middle Eastern,East Hollywood,4850 Fountain Ave, Los Angeles, CA 90029,(323) 555-4545,4.6,https://saffysla.com
+Night + Market Song Thai,Thai,Silver Lake,3322 Sunset Blvd, Los Angeles, CA 90026,(323) 665-5899,4.6,https://nightmarketsong.com
+Palms Thai Thai,Thai,Hollywood,5900 Hollywood Blvd, Los Angeles, CA 90028,(323) 462-5073,4.5,https://palmsthai.com
+Ayara Thai Cuisine Thai,Thai,Westchester,6245 W 87th St, Los Angeles, CA 90045,(310) 410-8848,4.6,https://ayarathai.com
+Chengdu Taste Chinese,Chinese,Alhambra,828 W Valley Blvd, Alhambra, CA 91803,(626) 588-2284,4.7,https://chengdutaste.com
+Din Tai Fung Chinese,Chinese,Century City,10250 Santa Monica Blvd, Los Angeles, CA 90067,(424) 382-1118,4.7,https://dintaifungusa.com
+Sea Harbour Chinese,Chinese,San Gabriel,3939 Rosemead Blvd, San Gabriel, CA 91770,(626) 288-3939,4.7,https://seaharbourla.com
+Lunasia Dim Sum House Chinese,Chinese,Pasadena,239 S Fair Oaks Ave, Pasadena, CA 91105,(626) 793-8822,4.6,https://lunasiarestaurant.com
+NBC Seafood Restaurant Chinese,Chinese,Monterey Park,404 S Atlantic Blvd, Monterey Park, CA 91754,(626) 282-2323,4.6,https://nbcseafood.com
+Elite Restaurant Chinese,Chinese,Monterey Park,700 S Atlantic Blvd, Monterey Park, CA 91754,(626) 282-9998,4.6,https://eliterestaurantla.com
+Capital Seafood Chinese,Chinese,Beverly Hills,50 N La Cienega Blvd, Beverly Hills, CA 90211,(310) 855-1234,4.5,https://capitalseafood.com
+Little Sister Asian Fusion,Asian Fusion,Downtown LA,523 W 7th St, Los Angeles, CA 90014,(213) 628-3146,4.5,https://littlesisterla.com
+All Day Baby Diner,Diner,Silver Lake,3200 Sunset Blvd, Los Angeles, CA 90026,(323) 741-0082,4.6,https://alldaybabyla.com
