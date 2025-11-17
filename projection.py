@@ -30,7 +30,7 @@ class DataTable:
 
 
 if __name__ == "__main__":
-    # ---------- Ratings_Type_Link / restaurant dataset ----------
+    #  Ratings_Type_Link / restaurant dataset
     restaurants_parser = csvParser("Ratings_Type_Link.csv")
     restaurants_table = DataTable.from_parser(restaurants_parser)
 
@@ -47,7 +47,7 @@ if __name__ == "__main__":
     for row in projected_restaurants.head(3):
         print(row)
 
-    # ---------- Healthgrade dataset ----------
+    #  Healthgrade dataset 
     health_parser = csvParser("Healthgrade.csv", encoding="latin-1")
     health_table = DataTable.from_parser(health_parser)
 
