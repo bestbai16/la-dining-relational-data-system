@@ -16,7 +16,7 @@ def load_tables():
     tables["ratings"] = ratings_table
 
     # Healthgrade dataset
-    health_parser = csvParser("Healthgrade.csv", encoding="latin-1")
+    health_parser = csvParser("Healthgrade.csv")
     health_table = DataTable.from_parser(health_parser)
     tables["healthgrade"] = health_table
 

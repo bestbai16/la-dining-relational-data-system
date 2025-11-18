@@ -8,11 +8,20 @@ class csvParser:
         self._parse()
 
     def _parse(self):
-        with open(self.filename, newline='', encoding="utf-8-sig") as f: # need this encoding, otherwise will also have BOM Byte Order Mark in dict keys
-            reader = csv.reader(f)
-            self.headers = next(reader)  # first row as header
-            for row in reader:
-                self.data.append(dict(zip(self.headers, row)))
+        try:
+            # First try UTF-8 with BOM handling
+            with open(self.filename, newline='', encoding="utf-8-sig") as f:
+                reader = csv.reader(f)
+                self.headers = next(reader)
+                for row in reader:
+                    self.data.append(dict(zip(self.headers, row)))
+        except UnicodeDecodeError:
+            # Fallback to latin-1 if UTF-8 fails
+            with open(self.filename, newline='', encoding="latin-1") as f:
+                reader = csv.reader(f)
+                self.headers = next(reader)
+                for row in reader:
+                    self.data.append(dict(zip(self.headers, row)))
 
     def head(self, n=5):
         # default of 5 but can input any n
@@ -49,3 +58,4 @@ class csvParser:
             writer.writerows(self.data)
 
 
+health = csvParser("Healthgrade.csv")
