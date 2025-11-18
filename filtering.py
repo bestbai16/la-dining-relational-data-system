@@ -14,7 +14,7 @@ def filter_data(data, column, value, op="=="):
         cell_value = row.get(actual_col, "").strip()
 
         # Handle numeric Rating column
-        if actual_col.lower() == "rating":
+        if actual_col.lower() == "rating" or actual_col.lower() == "score":
             try:
                 num = float(cell_value)
                 target = float(value)

@@ -27,10 +27,17 @@ load_tables()
 
 @app.route("/", methods=["GET", "POST"])
 def index():
-    dataset_name = request.form.get("dataset") or "ratings"
-    table = tables.get(dataset_name)
+    #dataset_name = request.form.get("dataset") or "ratings"
+    #table = tables.get(dataset_name)
+    #headers = table.headers if table else []
 
-    headers = table.headers if table else []
+    dataset_name = request.form.get("dataset", "ratings")
+    table = tables[dataset_name]
+    headers = table.headers
+
+    filter_column = request.form.get("filter_column", "")
+    if filter_column not in headers:
+        filter_column = ""  # reset if invalid
 
     # Defaults
     selected_columns = []
