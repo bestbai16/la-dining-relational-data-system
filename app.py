@@ -2,6 +2,7 @@
 from flask import Flask, render_template, request
 from parse import csvParser
 from table import DataTable
+from filtering import filter_data
 
 app = Flask(__name__)
 
@@ -36,6 +37,7 @@ def index():
     result_table = None
     filter_column = ""
     filter_value = ""
+    filter_operator = "=="
 
     if request.method == "POST":
         # Projection columns
@@ -44,6 +46,8 @@ def index():
         # Simple filter inputs
         filter_column = request.form.get("filter_column", "")
         filter_value = request.form.get("filter_value", "")
+        filter_operator = request.form.get("filter_operator", "==")
+
 
         # Start from the chosen dataset
         working = table
@@ -51,11 +55,12 @@ def index():
         # Apply filter if provided
         if filter_column and filter_value:
             try:
-                working = working.filter_equals(filter_column, filter_value)
+                working_rows = filter_data(table.rows, filter_column, filter_value, filter_operator)
+                # working = DataTable(working_rows, headers=table.headers)  # wrap back into your Table class if needed
+                working = DataTable(table.headers, working_rows)
             except ValueError as e:
-                # Show error in template as flash-like message if needed
                 return render_template(
-                    "index.html",
+                    "index - Copy.html",
                     datasets=list(tables.keys()),
                     current_dataset=dataset_name,
                     headers=headers,
@@ -63,8 +68,10 @@ def index():
                     result_table=None,
                     error=str(e),
                     filter_column=filter_column,
+                    filter_operator=filter_operator,   # <-- pass back to template
                     filter_value=filter_value,
                 )
+
 
         # Apply projection if columns selected, otherwise just show head()
         if selected_columns:
@@ -72,7 +79,7 @@ def index():
                 working = working.project(selected_columns)
             except ValueError as e:
                 return render_template(
-                    "index.html",
+                    "index - Copy.html",
                     datasets=list(tables.keys()),
                     current_dataset=dataset_name,
                     headers=headers,
@@ -80,6 +87,7 @@ def index():
                     result_table=None,
                     error=str(e),
                     filter_column=filter_column,
+                    filter_operator=filter_operator,   # <-- pass back to template
                     filter_value=filter_value,
                 )
 
@@ -90,7 +98,7 @@ def index():
         }
 
     return render_template(
-        "index.html",
+        "index - Copy.html",
         datasets=list(tables.keys()),
         current_dataset=dataset_name,
         headers=headers,
@@ -98,6 +106,7 @@ def index():
         result_table=result_table,
         error=None,
         filter_column=filter_column,
+        filter_operator=filter_operator,
         filter_value=filter_value,
     )
 

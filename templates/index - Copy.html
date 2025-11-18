@@ -1,0 +1,116 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>LA Dining Relational Data Explorer</h1>
+<p>
+  Explore LA restaurant ratings and health inspection data using a custom
+  Python query engine (projection + simple filtering).
+</p>
+
+<form method="post" class="section">
+  <!-- Dataset selector -->
+  <div>
+    <label for="dataset"><strong>Dataset:</strong></label>
+    <select name="dataset" id="dataset">
+      {% for d in datasets %}
+      <option value="{{ d }}" {% if d == current_dataset %}selected{% endif %}>
+        {{ d }}
+      </option>
+      {% endfor %}
+    </select>
+  </div>
+
+  <!-- Filter row -->
+  <div style="margin-top: 0.75rem;">
+    <strong>Filter (optional):</strong>
+    <div style="margin-top: 0.35rem;">
+      <label>
+        Column:
+        <select name="filter_column">
+          <option value="">-- none --</option>
+          {% for h in headers %}
+          <option value="{{ h }}" {% if h == filter_column %}selected{% endif %}>
+            {{ h }}
+          </option>
+          {% endfor %}
+        </select>
+      </label>
+      &nbsp;
+      <label>
+        Operator:
+        <select name="filter_operator">
+          <option value="==" {% if filter_operator == "==" %}selected{% endif %}>Equals</option>
+          <option value=">" {% if filter_operator == ">" %}selected{% endif %}>&gt;</option>
+          <option value="<" {% if filter_operator == "<" %}selected{% endif %}>&lt;</option>
+          <option value=">=" {% if filter_operator == ">=" %}selected{% endif %}>&ge;</option>
+          <option value="<=" {% if filter_operator == "<=" %}selected{% endif %}>&le;</option>
+        </select>
+      </label>
+      &nbsp;
+      <label>
+        Value:
+        <input
+          type="text"
+          name="filter_value"
+          value="{{ filter_value }}"
+          placeholder="e.g. 90 or A"
+        />
+      </label>
+    </div>
+  </div>
+
+
+  <!-- Column selection -->
+  <div style="margin-top: 0.75rem;">
+    <strong>Projection columns:</strong>
+    <div style="margin-top: 0.35rem;">
+      {% for h in headers %}
+      <label class="pill">
+        <input
+          type="checkbox"
+          name="columns"
+          value="{{ h }}"
+          {% if h in selected_columns %}checked{% endif %}
+        />
+        {{ h }}
+      </label>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div style="margin-top: 1rem;">
+    <button type="submit" class="btn">Run Query</button>
+  </div>
+
+  {% if error %}
+  <div class="error">{{ error }}</div>
+  {% endif %}
+</form>
+
+<!-- Results -->
+{% if result_table %}
+<div class="section" style="margin-top: 1.25rem;">
+  <h2>Query Result (showing up to 50 rows)</h2>
+  <div style="overflow-x: auto;">
+    <table>
+      <thead>
+        <tr>
+          {% for h in result_table.headers %}
+          <th>{{ h }}</th>
+          {% endfor %}
+        </tr>
+      </thead>
+      <tbody>
+        {% for row in result_table.rows %}
+        <tr>
+          {% for h in result_table.headers %}
+          <td>{{ row[h] }}</td>
+          {% endfor %}
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endif %}
+{% endblock %}
