@@ -29,11 +29,9 @@
       <label>
         Column:
         <select name="filter_column">
-          <option value="">-- none --</option>
+          <option value="" {% if not filter_column %}selected{% endif %}>-- none --</option>
           {% for h in headers %}
-          <option value="{{ h }}" {% if h == filter_column %}selected{% endif %}>
-            {{ h }}
-          </option>
+          <option value="{{ h }}" {% if h == filter_column %}selected{% endif %}>{{ h }}</option>
           {% endfor %}
         </select>
       </label>

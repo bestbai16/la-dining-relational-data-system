@@ -1,11 +1,21 @@
 import csv
 
 class csvParser:
-    def __init__(self, filename):
+    def __init__(self, filename=None, headers=None, data=None):
         self.filename = filename
         self.data = []
         self.headers = []
-        self._parse()
+        if headers is not None and data is not None:
+            # Construct directly from provided headers/data
+            self.headers = headers
+            self.data = data
+        elif filename is not None:
+            self._parse()
+
+    @classmethod
+    def from_data(cls, headers, data):
+        """Construct a csvParser directly from headers and list-of-dicts data."""
+        return cls(filename=None, headers=headers, data=data)
 
     def _parse(self):
         try:
@@ -58,4 +68,4 @@ class csvParser:
             writer.writerows(self.data)
 
 
-health = csvParser("Healthgrade.csv")
+# health = csvParser("Healthgrade.csv")

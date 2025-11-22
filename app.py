@@ -3,6 +3,7 @@ from flask import Flask, render_template, request
 from parse import csvParser
 from table import DataTable
 from filtering import filter_data
+from innerJoin import inner_join
 
 app = Flask(__name__)
 
@@ -21,6 +22,9 @@ def load_tables():
     health_table = DataTable.from_parser(health_parser)
     tables["healthgrade"] = health_table
 
+    combined_parser = inner_join(ratings_parser, "Restaurant Name", health_parser, "Facility Name")
+    combined_table = DataTable.from_parser(combined_parser)
+    tables["combined"] = combined_table
 load_tables()
 
 # ---------- Routes ----------
