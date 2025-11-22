@@ -78,6 +78,43 @@
     </div>
   </div>
 
+  <!-- Group By and Aggregate -->
+  <div style="margin-top: 0.75rem;">
+    <strong>Group By & Aggregate (optional):</strong>
+    <div style="margin-top: 0.35rem;">
+      <label>
+        Group By Column:
+        <select name="group_by_column">
+          <option value="" {% if not group_by_column %}selected{% endif %}>-- none --</option>
+          {% for h in headers %}
+          <option value="{{ h }}" {% if h == group_by_column %}selected{% endif %}>{{ h }}</option>
+          {% endfor %}
+        </select>
+      </label>
+      &nbsp;
+      <label>
+        Aggregate Column:
+        <select name="aggregate_column">
+          <option value="" {% if not aggregate_column %}selected{% endif %}>-- none --</option>
+          {% for h in headers %}
+          <option value="{{ h }}" {% if h == aggregate_column %}selected{% endif %}>{{ h }}</option>
+          {% endfor %}
+        </select>
+      </label>
+      &nbsp;
+      <label>
+        Aggregate Function:
+        <select name="aggregate_function">
+          <option value="count" {% if aggregate_function == "count" %}selected{% endif %}>Count</option>
+          <option value="sum" {% if aggregate_function == "sum" %}selected{% endif %}>Sum</option>
+          <option value="avg" {% if aggregate_function == "avg" %}selected{% endif %}>Average</option>
+          <option value="min" {% if aggregate_function == "min" %}selected{% endif %}>Min</option>
+          <option value="max" {% if aggregate_function == "max" %}selected{% endif %}>Max</option>
+        </select>
+      </label>
+    </div>
+  </div>
+
   <div style="margin-top: 1rem;">
     <button type="submit" class="btn">Run Query</button>
   </div>

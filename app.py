@@ -4,6 +4,7 @@ from parse import csvParser
 from table import DataTable
 from filtering import filter_data
 from innerJoin import inner_join
+from group_aggregation import group_and_aggregate
 
 app = Flask(__name__)
 
@@ -49,6 +50,9 @@ def index():
     filter_column = ""
     filter_value = ""
     filter_operator = "=="
+    group_by_column = ""
+    aggregate_column = ""
+    aggregate_function = "count"
 
     if request.method == "POST":
         # Projection columns
@@ -59,6 +63,11 @@ def index():
         filter_column = request.form.get("filter_column", "")
         filter_value = request.form.get("filter_value", "")
         filter_operator = request.form.get("filter_operator", "==")
+
+        # Group by and aggregate inputs
+        group_by_column = request.form.get("group_by_column", "")
+        aggregate_column = request.form.get("aggregate_column", "")
+        aggregate_function = request.form.get("aggregate_function", "count")
 
 
         # Start from the chosen dataset
@@ -80,10 +89,59 @@ def index():
                     result_table=None,
                     error=str(e),
                     filter_column=filter_column,
-                    filter_operator=filter_operator,   # <-- pass back to template
+                    filter_operator=filter_operator,
                     filter_value=filter_value,
+                    group_by_column=group_by_column,
+                    aggregate_column=aggregate_column,
+                    aggregate_function=aggregate_function,
                 )
 
+        # Apply group by and aggregate if specified (before projection)
+        if group_by_column and aggregate_column:
+            try:
+                # Validate that columns exist in original table headers (before projection)
+                if group_by_column not in headers:
+                    raise ValueError(f"Group by column '{group_by_column}' not found in table headers")
+                if aggregate_column not in headers:
+                    raise ValueError(f"Aggregate column '{aggregate_column}' not found in table headers")
+                
+                # Convert DataTable rows to list of dicts for group_and_aggregate
+                data_rows = working.rows
+                aggregated_results = group_and_aggregate(
+                    data_rows, 
+                    group_by_column, 
+                    aggregate_column, 
+                    aggregate_function
+                )
+                
+                # Convert aggregated results dictionary to table format
+                agg_headers = [group_by_column, f"{aggregate_function.upper()}({aggregate_column})"]
+                agg_rows = [
+                    {group_by_column: key, f"{aggregate_function.upper()}({aggregate_column})": value}
+                    for key, value in aggregated_results.items()
+                ]
+                
+                # Sort by group_by_column for better display
+                agg_rows.sort(key=lambda x: str(x[group_by_column]))
+                
+                # Create a DataTable from aggregated results
+                working = DataTable(agg_headers, agg_rows)
+            except Exception as e:
+                return render_template(
+                    "index - Copy.html",
+                    datasets=list(tables.keys()),
+                    current_dataset=dataset_name,
+                    headers=headers,
+                    selected_columns=selected_columns,
+                    result_table=None,
+                    error=str(e),
+                    filter_column=filter_column,
+                    filter_operator=filter_operator,
+                    filter_value=filter_value,
+                    group_by_column=group_by_column,
+                    aggregate_column=aggregate_column,
+                    aggregate_function=aggregate_function,
+                )
 
         # Apply projection if columns selected, otherwise just show head()
         if selected_columns:
@@ -99,8 +157,11 @@ def index():
                     result_table=None,
                     error=str(e),
                     filter_column=filter_column,
-                    filter_operator=filter_operator,   # <-- pass back to template
+                    filter_operator=filter_operator,
                     filter_value=filter_value,
+                    group_by_column=group_by_column,
+                    aggregate_column=aggregate_column,
+                    aggregate_function=aggregate_function,
                 )
 
         # Limit rows shown for UI
@@ -120,6 +181,9 @@ def index():
         filter_column=filter_column,
         filter_operator=filter_operator,
         filter_value=filter_value,
+        group_by_column=group_by_column,
+        aggregate_column=aggregate_column,
+        aggregate_function=aggregate_function,
     )
 
 if __name__ == "__main__":
