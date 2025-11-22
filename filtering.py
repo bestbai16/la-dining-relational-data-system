@@ -5,7 +5,7 @@ def filter_data(data, column, value, op="=="):
     # check if requested column exists
     col_key = column.lower().strip()
     if col_key not in headers:
-        raise KeyError(f"Column '{column}' not found. Available columns: {list(data[0].keys())}")
+        raise KeyError(f"Invalid column '{column}' for this dataset. Resetting to none.")
 
     actual_col = headers[col_key]
 

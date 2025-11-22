@@ -53,6 +53,7 @@ def index():
     if request.method == "POST":
         # Projection columns
         selected_columns = request.form.getlist("columns")
+        selected_columns = [c for c in selected_columns if c in headers]
 
         # Simple filter inputs
         filter_column = request.form.get("filter_column", "")
@@ -69,7 +70,7 @@ def index():
                 working_rows = filter_data(table.rows, filter_column, filter_value, filter_operator)
                 # working = DataTable(working_rows, headers=table.headers)  # wrap back into your Table class if needed
                 working = DataTable(table.headers, working_rows)
-            except ValueError as e:
+            except Exception as e:
                 return render_template(
                     "index - Copy.html",
                     datasets=list(tables.keys()),
@@ -88,7 +89,7 @@ def index():
         if selected_columns:
             try:
                 working = working.project(selected_columns)
-            except ValueError as e:
+            except Exception as e:
                 return render_template(
                     "index - Copy.html",
                     datasets=list(tables.keys()),
