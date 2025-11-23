@@ -21,17 +21,21 @@ class csvParser:
         try:
             # First try UTF-8 with BOM handling
             with open(self.filename, newline='', encoding="utf-8-sig") as f:
-                reader = csv.reader(f)
-                self.headers = next(reader)
-                for row in reader:
+                lines = f.readlines()
+                # Strip newline and split by comma
+                self.headers = lines[0].strip().split(",")
+                for line in lines[1:]:
+                    row = line.strip().split(",")
                     self.data.append(dict(zip(self.headers, row)))
         except UnicodeDecodeError:
             # Fallback to latin-1 if UTF-8 fails
             with open(self.filename, newline='', encoding="latin-1") as f:
-                reader = csv.reader(f)
-                self.headers = next(reader)
-                for row in reader:
+                lines = f.readlines()
+                self.headers = lines[0].strip().split(",")
+                for line in lines[1:]:
+                    row = line.strip().split(",")
                     self.data.append(dict(zip(self.headers, row)))
+
 
     def head(self, n=5):
         # default of 5 but can input any n
