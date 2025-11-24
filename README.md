@@ -15,6 +15,10 @@ projection.py
 filtering.py  
 group_aggregation.py  
 innerJoin.py  
+chunked_aggregation.py
+chunked_filtering.py
+chunked_parse.py
+chunked_table.py
 
 **Required html files:**  
 index - Copy.html  

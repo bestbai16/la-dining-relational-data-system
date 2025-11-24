@@ -1,31 +1,82 @@
 # app.py
+import os
 from flask import Flask, render_template, request
 from parse import csvParser
 from table import DataTable
 from filtering import filter_data
 from innerJoin import inner_join
 from group_aggregation import group_and_aggregate
+from chunked_parse import ChunkedCSVParser
+from chunked_table import ChunkedDataTable
+from chunked_filtering import filter_data_chunked
+from chunked_aggregation import group_and_aggregate_chunked
 
 app = Flask(__name__)
 
-# ---------- Load datasets on startup ----------
+# Configuration
+# Memory threshold in MB - files larger than this will use chunked processing
+MEMORY_THRESHOLD_MB = 50
+CHUNK_SIZE = 10000  
+
+# Load datasets on startup
 
 tables = {}
+table_parsers = {}  # Store parsers for chunked tables
+
+def get_file_size_mb(filename):
+    """Get file size in MB."""
+    if not os.path.exists(filename):
+        return 0
+    return os.path.getsize(filename) / (1024 * 1024)
 
 def load_tables():
     # Ratings dataset (your restaurant ratings CSV)
-    ratings_parser = csvParser("Ratings_Type_Link.csv")
-    ratings_table = DataTable.from_parser(ratings_parser)
-    tables["ratings"] = ratings_table
+    ratings_file = "Ratings_Type_Link.csv"
+    if get_file_size_mb(ratings_file) > MEMORY_THRESHOLD_MB:
+        # Use chunked processing for large files
+        ratings_parser = ChunkedCSVParser(ratings_file, chunk_size=CHUNK_SIZE)
+        ratings_table = ChunkedDataTable.from_parser(ratings_parser, chunk_size=CHUNK_SIZE)
+        tables["ratings"] = ratings_table
+        table_parsers["ratings"] = ratings_parser
+    else:
+        # Use regular processing for small files
+        ratings_parser = csvParser(ratings_file)
+        ratings_table = DataTable.from_parser(ratings_parser)
+        tables["ratings"] = ratings_table
+        table_parsers["ratings"] = ratings_parser
 
     # Healthgrade dataset
-    health_parser = csvParser("Healthgrade.csv")
-    health_table = DataTable.from_parser(health_parser)
-    tables["healthgrade"] = health_table
+    health_file = "Healthgrade.csv"
+    if get_file_size_mb(health_file) > MEMORY_THRESHOLD_MB:
+        # Use chunked processing for large files
+        health_parser = ChunkedCSVParser(health_file, chunk_size=CHUNK_SIZE)
+        health_table = ChunkedDataTable.from_parser(health_parser, chunk_size=CHUNK_SIZE)
+        tables["healthgrade"] = health_table
+        table_parsers["healthgrade"] = health_parser
+    else:
+        # Use regular processing for small files
+        health_parser = csvParser(health_file)
+        health_table = DataTable.from_parser(health_parser)
+        tables["healthgrade"] = health_table
+        table_parsers["healthgrade"] = health_parser
 
-    combined_parser = inner_join(ratings_parser, "Restaurant Name", health_parser, "Facility Name")
-    combined_table = DataTable.from_parser(combined_parser)
-    tables["combined"] = combined_table
+    # Combined dataset - for now, we'll use regular join (can be optimized later)
+    # Note: inner_join currently requires full data in memory
+    # For very large datasets, you'd need a chunked join implementation
+    try:
+        if isinstance(ratings_parser, ChunkedCSVParser) or isinstance(health_parser, ChunkedCSVParser):
+            # For chunked parsers, we need to load data for join (or implement chunked join)
+            # For now, we'll skip the combined table if both are chunked
+            # In production, you'd implement a chunked join
+            print("Warning: Combined table not created for chunked datasets (requires chunked join implementation)")
+        else:
+            combined_parser = inner_join(ratings_parser, "Restaurant Name", health_parser, "Facility Name")
+            combined_table = DataTable.from_parser(combined_parser)
+            tables["combined"] = combined_table
+            table_parsers["combined"] = combined_parser
+    except Exception as e:
+        print(f"Warning: Could not create combined table: {e}")
+
 load_tables()
 
 # ---------- Routes ----------
@@ -72,13 +123,29 @@ def index():
 
         # Start from the chosen dataset
         working = table
+        is_chunked = isinstance(table, ChunkedDataTable)
 
         # Apply filter if provided
         if filter_column and filter_value:
             try:
-                working_rows = filter_data(table.rows, filter_column, filter_value, filter_operator)
-                # working = DataTable(working_rows, headers=table.headers)  # wrap back into your Table class if needed
-                working = DataTable(table.headers, working_rows)
+                if is_chunked:
+                    # Use chunked filtering
+                    filtered_rows = list(filter_data_chunked(
+                        table.iter_chunks(), 
+                        filter_column, 
+                        filter_value, 
+                        filter_operator,
+                        headers=table.headers
+                    ))
+                    # Create a regular DataTable from filtered results (smaller now)
+                    from parse import csvParser
+                    temp_parser = csvParser.from_data(table.headers, filtered_rows)
+                    working = DataTable.from_parser(temp_parser)
+                    is_chunked = False  # Now it's a regular table
+                else:
+                    # Use regular filtering
+                    working_rows = filter_data(table.rows, filter_column, filter_value, filter_operator)
+                    working = DataTable(table.headers, working_rows)
             except Exception as e:
                 return render_template(
                     "index - Copy.html",
@@ -105,14 +172,24 @@ def index():
                 if aggregate_column not in headers:
                     raise ValueError(f"Aggregate column '{aggregate_column}' not found in table headers")
                 
-                # Convert DataTable rows to list of dicts for group_and_aggregate
-                data_rows = working.rows
-                aggregated_results = group_and_aggregate(
-                    data_rows, 
-                    group_by_column, 
-                    aggregate_column, 
-                    aggregate_function
-                )
+                # Use chunked or regular aggregation based on table type
+                if is_chunked:
+                    aggregated_results = group_and_aggregate_chunked(
+                        working.iter_chunks(),
+                        group_by_column,
+                        aggregate_column,
+                        aggregate_function,
+                        headers=working.headers
+                    )
+                else:
+                    # Convert DataTable rows to list of dicts for group_and_aggregate
+                    data_rows = working.rows
+                    aggregated_results = group_and_aggregate(
+                        data_rows, 
+                        group_by_column, 
+                        aggregate_column, 
+                        aggregate_function
+                    )
                 
                 # Convert aggregated results dictionary to table format
                 agg_headers = [group_by_column, f"{aggregate_function.upper()}({aggregate_column})"]
@@ -146,7 +223,18 @@ def index():
         # Apply projection if columns selected, otherwise just show head()
         if selected_columns:
             try:
-                working = working.project(selected_columns)
+                if is_chunked:
+                    working = working.project(selected_columns)
+                    # After projection, convert to regular table if it's small enough
+                    if isinstance(working, ChunkedDataTable):
+                        all_rows = working.get_all_rows()
+                        if len(all_rows) < 100000:  # If result is small, convert to regular table
+                            from parse import csvParser
+                            temp_parser = csvParser.from_data(working.headers, all_rows)
+                            working = DataTable.from_parser(temp_parser)
+                            is_chunked = False
+                else:
+                    working = working.project(selected_columns)
             except Exception as e:
                 return render_template(
                     "index - Copy.html",
@@ -165,10 +253,18 @@ def index():
                 )
 
         # Limit rows shown for UI
-        result_table = {
-            "headers": working.headers,
-            "rows": working.head(50),  # show up to 50 rows
-        }
+        if is_chunked:
+            # For chunked tables, just get the head
+            result_table = {
+                "headers": working.headers,
+                "rows": working.head(50),  # show up to 50 rows
+            }
+        else:
+            # For regular tables
+            result_table = {
+                "headers": working.headers,
+                "rows": working.head(50),  # show up to 50 rows
+            }
 
     return render_template(
         "index - Copy.html",
@@ -187,4 +283,8 @@ def index():
     )
 
 if __name__ == "__main__":
-    app.run(debug=True)
+     app.run(
+        debug=True,
+        host="127.0.0.1",
+        port=5001,  # <-- use a different port to avoid conflicts
+    )
