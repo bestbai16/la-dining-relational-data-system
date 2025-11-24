@@ -18,7 +18,6 @@ innerJoin.py
 
 **Required html files:**  
 index - Copy.html  
-index.html  
 base.html  
 
 ## 2) Change Directory  
